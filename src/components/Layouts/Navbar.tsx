@@ -1,6 +1,7 @@
-import { Music4, User } from 'lucide-react';
+import { Music4 } from 'lucide-react';
 import { Button } from '../ui/button';
 import { NavigationMenuComp } from './MenuList';
+import { UserMenu } from './UserManu';
 
 interface NavbarProps {}
 
@@ -21,7 +22,7 @@ const Navbar: React.FC<NavbarProps> = ({}) => {
         <NavigationMenuComp />
       </div>
       <div className='flex-1 flex justify-end'>
-        <User />
+        <UserMenu />
       </div>
     </div>
   );

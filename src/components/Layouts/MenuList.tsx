@@ -45,6 +45,29 @@ const components: { title: string; href: string; description: string }[] = [
       'Navigate through collections of music effortlessly using tab panels.',
   },
 ];
+const dashboardComp: { title: string; href: string; description: string }[] = [
+  {
+    title: 'Recently Played',
+    href: '/docs/primitives/alert-dialog',
+    description: `Display a history of your recently played tracks`,
+  },
+  {
+    title: ' Profile Overview',
+    href: '/docs/primitives/hover-card',
+    description: `Display Your profile Overview`,
+  },
+  {
+    title: 'Personalized Discoveries',
+    href: '/docs/primitives/progress',
+    description:
+      'Create a personalized Discover Weekly-like feature that curates a playlist based on your preferences and habits.',
+  },
+  {
+    title: ' Data Insights',
+    href: '/docs/primitives/scroll-area',
+    description: `Provide visualizations of the Your listening habits, like most played genres, time spent listening, and favorite tracks.`,
+  },
+];
 
 export function NavigationMenuComp() {
   return (
@@ -54,10 +77,16 @@ export function NavigationMenuComp() {
           <NavigationMenuTrigger>Dashboard</NavigationMenuTrigger>
 
           <NavigationMenuContent>
-            <ul className='grid gap-3 p-4 md:w-[400px] lg:w-[500px] lg:grid-cols-[.75fr_1fr]'>
-              <ListItem href='/docs' title='Introduction'>
-                Re-usable components built using Radix UI and Tailwind CSS.
-              </ListItem>
+            <ul className='grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px] '>
+              {dashboardComp.map((component) => (
+                <ListItem
+                  key={component.title}
+                  title={component.title}
+                  href={component.href}
+                >
+                  {component.description}
+                </ListItem>
+              ))}
             </ul>
           </NavigationMenuContent>
         </NavigationMenuItem>
