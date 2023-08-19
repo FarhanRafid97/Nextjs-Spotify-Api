@@ -1,0 +1,16 @@
+{
+  "extends": "next/core-web-vitals",
+  "plugins": ["@typescript-eslint"],
+  "rules": {
+    "no-unused-vars": "off",
+    "no-console": "warn",
+
+    "react/no-unescaped-entities": "off",
+
+    "react/display-name": "off",
+    "react/jsx-curly-brace-presence": [
+      "warn",
+      { "props": "never", "children": "never" }
+    ]
+  }
+}
