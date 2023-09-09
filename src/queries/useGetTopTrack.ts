@@ -1,4 +1,4 @@
-import { MappingInterface } from '@/types/UserTopItems';
+import { ResponseTopTrackApi } from '@/types/UserTopItems';
 import { useQuery } from '@tanstack/react-query';
 
 export const useGetTopTrack = ({
@@ -12,13 +12,13 @@ export const useGetTopTrack = ({
 }) => {
   const query = useQuery({
     queryKey: ['top-track'],
-    queryFn: async (): Promise<MappingInterface[] | null> => {
+    queryFn: async (): Promise<ResponseTopTrackApi | null> => {
       try {
         const data = await fetch(
           `http://localhost:3000/api/top-track?limit=${limit}&offset=${offset}`,
         );
 
-        const jsonData: MappingInterface[] = await data.json();
+        const jsonData: ResponseTopTrackApi = await data.json();
 
         return jsonData;
       } catch (error: any) {

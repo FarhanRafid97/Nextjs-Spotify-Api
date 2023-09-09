@@ -122,3 +122,7 @@ export interface MappingInterface {
   };
   preview: string;
 }
+export interface ResponseTopTrackApi {
+  status: string;
+  tracks: MappingInterface[];
+}
