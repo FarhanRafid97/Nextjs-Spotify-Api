@@ -2,11 +2,13 @@ import Image from 'next/image';
 import { ParallaxText } from './RunningText';
 const Hero = () => {
   return (
-    <section className='w-full relative  h-[100vh] flex justify-center items-center'>
-      <div className='relative z-[4]'>
+    <section className='w-full relative  overflow-hidden  h-[100vh] flex justify-center  items-center'>
+      <div className='relative   z-[4]'>
         <Image
           src='/assets/vintage.jpg'
           width={850}
+          placeholder='blur'
+          blurDataURL='/assets/vintage.jpg'
           height={850}
           className='rounded-[999px] ring-8 ring-primary ring-offset-8 brightness-90'
           alt='hero image'
