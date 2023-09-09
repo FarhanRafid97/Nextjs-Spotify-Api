@@ -15,7 +15,7 @@ export const useGetTopTrack = ({
     queryFn: async (): Promise<ResponseTopTrackApi | null> => {
       try {
         const data = await fetch(
-          `http://localhost:3000/api/top-track?limit=${limit}&offset=${offset}`,
+          `${process.env.NEXT_PUBLIC_WEB_URL}/api/top-track?limit=${limit}&offset=${offset}`,
         );
 
         const jsonData: ResponseTopTrackApi = await data.json();

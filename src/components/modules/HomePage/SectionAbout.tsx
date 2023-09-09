@@ -13,9 +13,11 @@ const SectionAbout = () => {
       </div>
       <div className='custome-font-Bebas_Neue-google mb-[150px] flex flex-col  text-[150px] justify-center items-center'>
         <div className='overflow-hidden'>
-          <motion.p className='odd-span'>Welcome To My Music</motion.p>
+          <motion.p className='odd-span'>
+            Welcome <span className='even-span'>To</span> My Music
+          </motion.p>
         </div>
-        <p className='even-span'>Library</p>
+        <p className='odd-span'>Library</p>
       </div>
     </section>
   );

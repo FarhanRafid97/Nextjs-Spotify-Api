@@ -3,10 +3,11 @@ import { ParallaxText } from './RunningText';
 const Hero = () => {
   return (
     <section className='w-full relative  overflow-hidden  h-[100vh] flex justify-center  items-center'>
-      <div className='relative   z-[4]'>
+      <div className='relative  max-w-[850px]  max-h-[850px]  rounded-[999px]  z-[4]'>
         <Image
           src='/assets/vintage.jpg'
           width={850}
+          loading='eager'
           placeholder='blur'
           blurDataURL='/assets/vintage.jpg'
           height={850}
