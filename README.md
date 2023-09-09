@@ -24,7 +24,7 @@ To get started with this project, follow these steps:
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone https://github.com/your-username/spotify-clone.git
+   git clone https://github.com/FarhanRafid97/Nextjs-Spotify-Api.git
    ```
 
 2. Change to the project directory:
