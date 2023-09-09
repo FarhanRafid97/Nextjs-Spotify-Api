@@ -1,17 +1,18 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+@import './font.css';
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
+    --background: 42, 31%, 94%;
     --foreground: 20 14.3% 4.1%;
     --card: 0 0% 100%;
     --card-foreground: 20 14.3% 4.1%;
     --popover: 0 0% 100%;
     --popover-foreground: 20 14.3% 4.1%;
-    --primary: 47.9 95.8% 53.1%;
-    --primary-foreground: 26 83.3% 14.1%;
+    --primary: 0, 60%, 48%;
+    --primary-foreground: 42, 31%, 94%;
     --secondary: 60 4.8% 95.9%;
     --secondary-foreground: 24 9.8% 10%;
     --muted: 60 4.8% 95.9%;
@@ -49,39 +50,6 @@
   }
 }
 
-.dark {
-  --background: 224 71% 4%;
-  --foreground: 213 31% 91%;
-
-  --muted: 223 47% 11%;
-  --muted-foreground: 215.4 16.3% 56.9%;
-
-  --accent: 216 34% 17%;
-  --accent-foreground: 210 40% 98%;
-
-  --popover: 224 71% 4%;
-  --popover-foreground: 215 20.2% 65.1%;
-
-  --border: 216 34% 17%;
-  --input: 216 34% 17%;
-
-  --card: 224 71% 4%;
-  --card-foreground: 213 31% 91%;
-
-  --primary: 210 40% 98%;
-  --primary-foreground: 222.2 47.4% 1.2%;
-
-  --secondary: 222.2 47.4% 11.2%;
-  --secondary-foreground: 210 40% 98%;
-
-  --destructive: 0 63% 31%;
-  --destructive-foreground: 210 40% 98%;
-
-  --ring: 216 34% 17%;
-
-  --radius: 0.5rem;
-}
-
 @layer base {
   * {
     @apply border-border;
@@ -93,6 +61,42 @@
       'calt' 1;
   }
 }
-p {
-  color: rgb(34, 34, 34);
+
+.parallax {
+  overflow: hidden;
+  letter-spacing: -2px;
+  line-height: 0.8;
+  margin: 0;
+  white-space: nowrap;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.parallax .scroller {
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 134px;
+  display: flex;
+  white-space: nowrap;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.parallax span {
+  display: flex;
+  margin-right: 30px;
+  gap: 0;
+  font-family: 'BlackOpsOne-google';
+}
+
+.parallax .first-span {
+  color: var(--primary);
+}
+
+.odd-span {
+  color: #c33130;
+}
+.even-span {
+  color: white;
+  -webkit-text-stroke: 2px #c33130;
 }

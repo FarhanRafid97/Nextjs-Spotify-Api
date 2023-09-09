@@ -1,8 +1,8 @@
 'use client';
-import SigninButton from '@/components/SIgnInButton';
-import { JWT } from 'next-auth/jwt';
+import Hero from '@/components/modules/HomePage/Hero';
+import TopTrackSection from '@/components/modules/HomePage/TopTrackSection';
+import axios from 'axios';
 import { useSession } from 'next-auth/react';
-import Image from 'next/image';
 import { useEffect, useState } from 'react';
 
 export default function Home() {
@@ -10,9 +10,30 @@ export default function Home() {
   const [user, setUser] = useState<any>(null);
 
   useEffect(() => {
-    if (!session) {
-      return;
+    async function refreshAccessToken() {
+      const authOptions = {
+        url: 'https://accounts.spotify.com/api/token',
+        method: 'post',
+        headers: {
+          Authorization:
+            'Basic ' +
+            Buffer.from(
+              `${process.env.SPOTIFY_CLIENT_ID}:${process.env.SPOTIFY_CLIENT_SECRET}`,
+            ).toString('base64'),
+        },
+        data: new URLSearchParams({
+          grant_type: 'refresh_token',
+          refresh_token: process.env.NEXT_PUBLIC_SPOTIFY_REFRESH_TOKEN ?? '',
+        }),
+      };
+
+      try {
+        const { data } = await axios(authOptions);
+      } catch (error) {
+        return null;
+      }
     }
+
     const getData = async () => {
       const data = await fetch(
         `https://api.spotify.com/v1/users/${session?.user?.sub}`,
@@ -28,23 +49,13 @@ export default function Home() {
 
       setUser(jsonData);
     };
+    refreshAccessToken();
     getData();
   }, [session]);
   return (
-    <main className='flex min-h-screen flex-col items-center justify-between p-24'>
-      <div>
-        {user === null ? (
-          <div className='w-[200px] bg-gray-50/10 h-[200px] animate-pulse' />
-        ) : (
-          <div>
-            {/* <Image src={user?.images?.[1]?.url} width={200} height={200} alt="profile pcit" />
-            <a href={user?.external_urls.spotify} className="" target="_blank">
-              <p className="hover:text-blue-500 text-blue-400">{user.display_name}</p>
-            </a> */}
-          </div>
-        )}
-        <SigninButton />
-      </div>
+    <main className='flex min-h-screen flex-col items-center justify-between '>
+      <Hero />
+      <TopTrackSection />
     </main>
   );
 }

@@ -1,8 +1,9 @@
+import Navbar from '@/components/Layouts/Navbar';
 import Providers from '@/components/Providers';
+import ReactQueryProviders from '@/lib/Provider';
 import '@/styles/globals.css';
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
-import Navbar from '@/components/Layouts/Navbar';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -20,7 +21,9 @@ export default function RootLayout({
     <html lang='en'>
       <body className={inter.className}>
         <Navbar />
-        <Providers>{children}</Providers>
+        <Providers>
+          <ReactQueryProviders>{children}</ReactQueryProviders>
+        </Providers>
       </body>
     </html>
   );

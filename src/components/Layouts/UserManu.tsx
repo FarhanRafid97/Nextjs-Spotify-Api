@@ -1,3 +1,4 @@
+'use client';
 import { Button } from '@/components/ui/button';
 import {
   DropdownMenu,
@@ -14,6 +15,7 @@ import {
   DropdownMenuTrigger,
 } from '@/components/ui/dropdown-menu';
 import { User } from 'lucide-react';
+import { signOut } from 'next-auth/react';
 
 export function UserMenu() {
   return (
@@ -31,7 +33,9 @@ export function UserMenu() {
           <DropdownMenuItem>Settings</DropdownMenuItem>
         </DropdownMenuGroup>
         <DropdownMenuSeparator />
-        <DropdownMenuItem>Log out</DropdownMenuItem>
+        <DropdownMenuItem>
+          <button onClick={() => signOut()}>Log out</button>
+        </DropdownMenuItem>
       </DropdownMenuContent>
     </DropdownMenu>
   );

@@ -35,3 +35,8 @@ export interface TopArtistsResponse {
   total: number;
   items: Artist[];
 }
+
+export interface ErrorResponse {
+  message: string;
+  status: number;
+}

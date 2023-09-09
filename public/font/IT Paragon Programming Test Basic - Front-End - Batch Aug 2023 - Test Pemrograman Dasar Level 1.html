@@ -1,0 +1,1552 @@
+<!DOCTYPE html>
+<!-- saved from url=(0086)https://app2.algobash.com/assessments/3214/modules/11209/test/programming?questionId=5 -->
+<html lang="en" translate="no" class="light"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <link rel="icon" href="./IT Paragon Programming Test Basic - Front-End - Batch Aug 2023 - Test Pemrograman Dasar Level 1_files/rec-logo.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com/">
+  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="true">
+  <link rel="stylesheet" href="./IT Paragon Programming Test Basic - Front-End - Batch Aug 2023 - Test Pemrograman Dasar Level 1_files/css2">
+  <link rel="stylesheet" id="tiny-css">
+  <link rel="stylesheet" id="prism-css" href="data:text/css;base64,Y29kZVtjbGFzcyo9bGFuZ3VhZ2UtXSxwcmVbY2xhc3MqPWxhbmd1YWdlLV17Y29sb3I6IzAwMDtiYWNrZ3JvdW5kOjAgMDt0ZXh0LXNoYWRvdzowIDFweCAjZmZmO2ZvbnQtZmFtaWx5OkNvbnNvbGFzLE1vbmFjbywnQW5kYWxlIE1vbm8nLCdVYnVudHUgTW9ubycsbW9ub3NwYWNlO2ZvbnQtc2l6ZToxZW07dGV4dC1hbGlnbjpsZWZ0O3doaXRlLXNwYWNlOnByZTt3b3JkLXNwYWNpbmc6bm9ybWFsO3dvcmQtYnJlYWs6bm9ybWFsO3dvcmQtd3JhcDpub3JtYWw7bGluZS1oZWlnaHQ6MS41Oy1tb3otdGFiLXNpemU6NDstby10YWItc2l6ZTo0O3RhYi1zaXplOjQ7LXdlYmtpdC1oeXBoZW5zOm5vbmU7LW1vei1oeXBoZW5zOm5vbmU7LW1zLWh5cGhlbnM6bm9uZTtoeXBoZW5zOm5vbmV9Y29kZVtjbGFzcyo9bGFuZ3VhZ2UtXSA6Oi1tb3otc2VsZWN0aW9uLGNvZGVbY2xhc3MqPWxhbmd1YWdlLV06Oi1tb3otc2VsZWN0aW9uLHByZVtjbGFzcyo9bGFuZ3VhZ2UtXSA6Oi1tb3otc2VsZWN0aW9uLHByZVtjbGFzcyo9bGFuZ3VhZ2UtXTo6LW1vei1zZWxlY3Rpb257dGV4dC1zaGFkb3c6bm9uZTtiYWNrZ3JvdW5kOiNiM2Q0ZmN9Y29kZVtjbGFzcyo9bGFuZ3VhZ2UtXSA6OnNlbGVjdGlvbixjb2RlW2NsYXNzKj1sYW5ndWFnZS1dOjpzZWxlY3Rpb24scHJlW2NsYXNzKj1sYW5ndWFnZS1dIDo6c2VsZWN0aW9uLHByZVtjbGFzcyo9bGFuZ3VhZ2UtXTo6c2VsZWN0aW9ue3RleHQtc2hhZG93Om5vbmU7YmFja2dyb3VuZDojYjNkNGZjfUBtZWRpYSBwcmludHtjb2RlW2NsYXNzKj1sYW5ndWFnZS1dLHByZVtjbGFzcyo9bGFuZ3VhZ2UtXXt0ZXh0LXNoYWRvdzpub25lfX1wcmVbY2xhc3MqPWxhbmd1YWdlLV17cGFkZGluZzoxZW07bWFyZ2luOi41ZW0gMDtvdmVyZmxvdzphdXRvfTpub3QocHJlKT5jb2RlW2NsYXNzKj1sYW5ndWFnZS1dLHByZVtjbGFzcyo9bGFuZ3VhZ2UtXXtiYWNrZ3JvdW5kOiNmNWYyZjB9Om5vdChwcmUpPmNvZGVbY2xhc3MqPWxhbmd1YWdlLV17cGFkZGluZzouMWVtO2JvcmRlci1yYWRpdXM6LjNlbTt3aGl0ZS1zcGFjZTpub3JtYWx9LnRva2VuLmNkYXRhLC50b2tlbi5jb21tZW50LC50b2tlbi5kb2N0eXBlLC50b2tlbi5wcm9sb2d7Y29sb3I6IzcwODA5MH0udG9rZW4ucHVuY3R1YXRpb257Y29sb3I6Izk5OX0udG9rZW4ubmFtZXNwYWNle29wYWNpdHk6Ljd9LnRva2VuLmJvb2xlYW4sLnRva2VuLmNvbnN0YW50LC50b2tlbi5kZWxldGVkLC50b2tlbi5udW1iZXIsLnRva2VuLnByb3BlcnR5LC50b2tlbi5zeW1ib2wsLnRva2VuLnRhZ3tjb2xvcjojOTA1fS50b2tlbi5hdHRyLW5hbWUsLnRva2VuLmJ1aWx0aW4sLnRva2VuLmNoYXIsLnRva2VuLmluc2VydGVkLC50b2tlbi5zZWxlY3RvciwudG9rZW4uc3RyaW5ne2NvbG9yOiM2OTB9Lmxhbmd1YWdlLWNzcyAudG9rZW4uc3RyaW5nLC5zdHlsZSAudG9rZW4uc3RyaW5nLC50b2tlbi5lbnRpdHksLnRva2VuLm9wZXJhdG9yLC50b2tlbi51cmx7Y29sb3I6IzlhNmUzYTtiYWNrZ3JvdW5kOmhzbGEoMCwwJSwxMDAlLC41KX0udG9rZW4uYXRydWxlLC50b2tlbi5hdHRyLXZhbHVlLC50b2tlbi5rZXl3b3Jke2NvbG9yOiMwN2F9LnRva2VuLmNsYXNzLW5hbWUsLnRva2VuLmZ1bmN0aW9ue2NvbG9yOiNkZDRhNjh9LnRva2VuLmltcG9ydGFudCwudG9rZW4ucmVnZXgsLnRva2VuLnZhcmlhYmxle2NvbG9yOiNlOTB9LnRva2VuLmJvbGQsLnRva2VuLmltcG9ydGFudHtmb250LXdlaWdodDo3MDB9LnRva2VuLml0YWxpY3tmb250LXN0eWxlOml0YWxpY30udG9rZW4uZW50aXR5e2N1cnNvcjpoZWxwfQ==">
+  <title>IT Paragon Programming Test Basic - Front-End - Batch Aug 2023 - Test Pemrograman Dasar Level 1</title>
+  <script src="./IT Paragon Programming Test Basic - Front-End - Batch Aug 2023 - Test Pemrograman Dasar Level 1_files/twk-main.js" charset="UTF-8" crossorigin="*"></script><script src="./IT Paragon Programming Test Basic - Front-End - Batch Aug 2023 - Test Pemrograman Dasar Level 1_files/twk-vendor.js" charset="UTF-8" crossorigin="*"></script><script src="./IT Paragon Programming Test Basic - Front-End - Batch Aug 2023 - Test Pemrograman Dasar Level 1_files/twk-chunk-vendors.js" charset="UTF-8" crossorigin="*"></script><script src="./IT Paragon Programming Test Basic - Front-End - Batch Aug 2023 - Test Pemrograman Dasar Level 1_files/twk-chunk-common.js" charset="UTF-8" crossorigin="*"></script><script src="./IT Paragon Programming Test Basic - Front-End - Batch Aug 2023 - Test Pemrograman Dasar Level 1_files/twk-runtime.js" charset="UTF-8" crossorigin="*"></script><script src="./IT Paragon Programming Test Basic - Front-End - Batch Aug 2023 - Test Pemrograman Dasar Level 1_files/twk-app.js" charset="UTF-8" crossorigin="*"></script><script async="" src="./IT Paragon Programming Test Basic - Front-End - Batch Aug 2023 - Test Pemrograman Dasar Level 1_files/1gondcmkv" charset="UTF-8" crossorigin="*"></script><script type="module" crossorigin="" src="./IT Paragon Programming Test Basic - Front-End - Batch Aug 2023 - Test Pemrograman Dasar Level 1_files/index-41b43ac4.js"></script>
+  <link rel="stylesheet" href="./IT Paragon Programming Test Basic - Front-End - Batch Aug 2023 - Test Pemrograman Dasar Level 1_files/index-aeead526.css">
+<script charset="utf-8" src="./IT Paragon Programming Test Basic - Front-End - Batch Aug 2023 - Test Pemrograman Dasar Level 1_files/twk-chunk-2c78ba82.js"></script><script charset="utf-8" src="./IT Paragon Programming Test Basic - Front-End - Batch Aug 2023 - Test Pemrograman Dasar Level 1_files/twk-chunk-696bc286.js"></script><script charset="utf-8" src="./IT Paragon Programming Test Basic - Front-End - Batch Aug 2023 - Test Pemrograman Dasar Level 1_files/twk-chunk-2d0b383d.js"></script><script charset="utf-8" src="./IT Paragon Programming Test Basic - Front-End - Batch Aug 2023 - Test Pemrograman Dasar Level 1_files/twk-chunk-48f46bef.js"></script><script charset="utf-8" src="./IT Paragon Programming Test Basic - Front-End - Batch Aug 2023 - Test Pemrograman Dasar Level 1_files/twk-chunk-4fe9d5dd.js"></script><script charset="utf-8" src="./IT Paragon Programming Test Basic - Front-End - Batch Aug 2023 - Test Pemrograman Dasar Level 1_files/twk-chunk-2d0b9454.js"></script><script charset="utf-8" src="./IT Paragon Programming Test Basic - Front-End - Batch Aug 2023 - Test Pemrograman Dasar Level 1_files/twk-chunk-07cad36d.js"></script><style type="text/css">#fpi83vrpqio81693570195416 {outline:none !important;
+visibility:visible !important;
+resize:none !important;
+box-shadow:none !important;
+overflow:visible !important;
+background:none !important;
+opacity:1 !important;
+filter:alpha(opacity=100) !important;
+-ms-filter:progid:DXImageTransform.Microsoft.Alpha(Opacity 1}) !important;
+-mz-opacity:1 !important;
+-khtml-opacity:1 !important;
+top:auto !important;
+right:0px !important;
+bottom:0px !important;
+left:auto !important;
+position:fixed !important;
+border:0 !important;
+min-height:0px  !important;
+min-width:0px  !important;
+max-height:none  !important;
+max-width:none  !important;
+padding:0px !important;
+margin:0px !important;
+-moz-transition-property:none !important;
+-webkit-transition-property:none !important;
+-o-transition-property:none !important;
+transition-property:none !important;
+transform:none !important;
+-webkit-transform:none !important;
+-ms-transform:none !important;
+width:auto !important;
+height:auto  !important;
+display:none !important;
+z-index:2000000000 !important;
+background-color:transparent !important;
+cursor:none !important;
+float:none !important;
+border-radius:unset !important;
+pointer-events:auto !important;
+clip:auto !important;
+color-scheme:light !important;}#fpi83vrpqio81693570195416.widget-hidden {display: none !important;}#fpi83vrpqio81693570195416.widget-visible {display: block !important;}
+@media print{
+ #fpi83vrpqio81693570195416.widget-visible { 
+display: none !important;
+ }
+}</style><script src="./IT Paragon Programming Test Basic - Front-End - Batch Aug 2023 - Test Pemrograman Dasar Level 1_files/emojione.min.js" type="text/javascript" async="" defer=""></script><script src="./IT Paragon Programming Test Basic - Front-End - Batch Aug 2023 - Test Pemrograman Dasar Level 1_files/emojione.min.js" type="text/javascript" async="" defer=""></script><style type="text/css">@keyframes tawkMaxOpen{0%{opacity:0;transform:translate(0, 30px);;}to{opacity:1;transform:translate(0, 0px);}}@-moz-keyframes tawkMaxOpen{0%{opacity:0;transform:translate(0, 30px);;}to{opacity:1;transform:translate(0, 0px);}}@-webkit-keyframes tawkMaxOpen{0%{opacity:0;transform:translate(0, 30px);;}to{opacity:1;transform:translate(0, 0px);}}#utripo4oiueo1693570195440.open{animation : tawkMaxOpen .25s ease!important;}@keyframes tawkMaxClose{from{opacity: 1;transform:translate(0, 0px);;}to{opacity: 0;transform:translate(0, 30px);;}}@-moz-keyframes tawkMaxClose{from{opacity: 1;transform:translate(0, 0px);;}to{opacity: 0;transform:translate(0, 30px);;}}@-webkit-keyframes tawkMaxClose{from{opacity: 1;transform:translate(0, 0px);;}to{opacity: 0;transform:translate(0, 30px);;}}#utripo4oiueo1693570195440.closed{animation: tawkMaxClose .25s ease!important}</style><style type="text/css">.CtxtMenu_InfoClose {  top:.2em; right:.2em;}
+.CtxtMenu_InfoContent {  overflow:auto; text-align:left; font-size:80%;  padding:.4em .6em; border:1px inset; margin:1em 0px;  max-height:20em; max-width:30em; background-color:#EEEEEE;  white-space:normal;}
+.CtxtMenu_Info.CtxtMenu_MousePost {outline:none;}
+.CtxtMenu_Info {  position:fixed; left:50%; width:auto; text-align:center;  border:3px outset; padding:1em 2em; background-color:#DDDDDD;  color:black;  cursor:default; font-family:message-box; font-size:120%;  font-style:normal; text-indent:0; text-transform:none;  line-height:normal; letter-spacing:normal; word-spacing:normal;  word-wrap:normal; white-space:nowrap; float:none; z-index:201;  border-radius: 15px;                     /* Opera 10.5 and IE9 */  -webkit-border-radius:15px;               /* Safari and Chrome */  -moz-border-radius:15px;                  /* Firefox */  -khtml-border-radius:15px;                /* Konqueror */  box-shadow:0px 10px 20px #808080;         /* Opera 10.5 and IE9 */  -webkit-box-shadow:0px 10px 20px #808080; /* Safari 3 & Chrome */  -moz-box-shadow:0px 10px 20px #808080;    /* Forefox 3.5 */  -khtml-box-shadow:0px 10px 20px #808080;  /* Konqueror */  filter:progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color="gray", Positive="true"); /* IE */}
+</style><style type="text/css">.CtxtMenu_MenuClose {  position:absolute;  cursor:pointer;  display:inline-block;  border:2px solid #AAA;  border-radius:18px;  -webkit-border-radius: 18px;             /* Safari and Chrome */  -moz-border-radius: 18px;                /* Firefox */  -khtml-border-radius: 18px;              /* Konqueror */  font-family: "Courier New", Courier;  font-size:24px;  color:#F0F0F0}
+.CtxtMenu_MenuClose span {  display:block; background-color:#AAA; border:1.5px solid;  border-radius:18px;  -webkit-border-radius: 18px;             /* Safari and Chrome */  -moz-border-radius: 18px;                /* Firefox */  -khtml-border-radius: 18px;              /* Konqueror */  line-height:0;  padding:8px 0 6px     /* may need to be browser-specific */}
+.CtxtMenu_MenuClose:hover {  color:white!important;  border:2px solid #CCC!important}
+.CtxtMenu_MenuClose:hover span {  background-color:#CCC!important}
+.CtxtMenu_MenuClose:hover:focus {  outline:none}
+</style><style type="text/css">.CtxtMenu_Menu {  position:absolute;  background-color:white;  color:black;  width:auto; padding:5px 0px;  border:1px solid #CCCCCC; margin:0; cursor:default;  font: menu; text-align:left; text-indent:0; text-transform:none;  line-height:normal; letter-spacing:normal; word-spacing:normal;  word-wrap:normal; white-space:nowrap; float:none; z-index:201;  border-radius: 5px;                     /* Opera 10.5 and IE9 */  -webkit-border-radius: 5px;             /* Safari and Chrome */  -moz-border-radius: 5px;                /* Firefox */  -khtml-border-radius: 5px;              /* Konqueror */  box-shadow:0px 10px 20px #808080;         /* Opera 10.5 and IE9 */  -webkit-box-shadow:0px 10px 20px #808080; /* Safari 3 & Chrome */  -moz-box-shadow:0px 10px 20px #808080;    /* Forefox 3.5 */  -khtml-box-shadow:0px 10px 20px #808080;  /* Konqueror */}
+.CtxtMenu_MenuItem {  padding: 1px 2em;  background:transparent;}
+.CtxtMenu_MenuArrow {  position:absolute; right:.5em; padding-top:.25em; color:#666666;  font-family: null; font-size: .75em}
+.CtxtMenu_MenuActive .CtxtMenu_MenuArrow {color:white}
+.CtxtMenu_MenuArrow.CtxtMenu_RTL {left:.5em; right:auto}
+.CtxtMenu_MenuCheck {  position:absolute; left:.7em;  font-family: null}
+.CtxtMenu_MenuCheck.CtxtMenu_RTL { right:.7em; left:auto }
+.CtxtMenu_MenuRadioCheck {  position:absolute; left: .7em;}
+.CtxtMenu_MenuRadioCheck.CtxtMenu_RTL {  right: .7em; left:auto}
+.CtxtMenu_MenuInputBox {  padding-left: 1em; right:.5em; color:#666666;  font-family: null;}
+.CtxtMenu_MenuInputBox.CtxtMenu_RTL {  left: .1em;}
+.CtxtMenu_MenuComboBox {  left:.1em; padding-bottom:.5em;}
+.CtxtMenu_MenuSlider {  left: .1em;}
+.CtxtMenu_SliderValue {  position:absolute; right:.1em; padding-top:.25em; color:#333333;  font-size: .75em}
+.CtxtMenu_SliderBar {  outline: none; background: #d3d3d3}
+.CtxtMenu_MenuLabel {  padding: 1px 2em 3px 1.33em;  font-style:italic}
+.CtxtMenu_MenuRule {  border-top: 1px solid #DDDDDD;  margin: 4px 3px;}
+.CtxtMenu_MenuDisabled {  color:GrayText}
+.CtxtMenu_MenuActive {  background-color: #606872;  color: white;}
+.CtxtMenu_MenuDisabled:focus {  background-color: #E8E8E8}
+.CtxtMenu_MenuLabel:focus {  background-color: #E8E8E8}
+.CtxtMenu_ContextMenu:focus {  outline:none}
+.CtxtMenu_ContextMenu .CtxtMenu_MenuItem:focus {  outline:none}
+.CtxtMenu_SelectionMenu {  position:relative; float:left;  border-bottom: none; -webkit-box-shadow:none; -webkit-border-radius:0px; }
+.CtxtMenu_SelectionItem {  padding-right: 1em;}
+.CtxtMenu_Selection {  right: 40%; width:50%; }
+.CtxtMenu_SelectionBox {  padding: 0em; max-height:20em; max-width: none;  background-color:#FFFFFF;}
+.CtxtMenu_SelectionDivider {  clear: both; border-top: 2px solid #000000;}
+.CtxtMenu_Menu .CtxtMenu_MenuClose {  top:-10px; left:-10px}
+</style><style id="MJX-CHTML-styles">
+mjx-container[jax="CHTML"] {
+  line-height: 0;
+}
+
+mjx-container [space="1"] {
+  margin-left: .111em;
+}
+
+mjx-container [space="2"] {
+  margin-left: .167em;
+}
+
+mjx-container [space="3"] {
+  margin-left: .222em;
+}
+
+mjx-container [space="4"] {
+  margin-left: .278em;
+}
+
+mjx-container [space="5"] {
+  margin-left: .333em;
+}
+
+mjx-container [rspace="1"] {
+  margin-right: .111em;
+}
+
+mjx-container [rspace="2"] {
+  margin-right: .167em;
+}
+
+mjx-container [rspace="3"] {
+  margin-right: .222em;
+}
+
+mjx-container [rspace="4"] {
+  margin-right: .278em;
+}
+
+mjx-container [rspace="5"] {
+  margin-right: .333em;
+}
+
+mjx-container [size="s"] {
+  font-size: 70.7%;
+}
+
+mjx-container [size="ss"] {
+  font-size: 50%;
+}
+
+mjx-container [size="Tn"] {
+  font-size: 60%;
+}
+
+mjx-container [size="sm"] {
+  font-size: 85%;
+}
+
+mjx-container [size="lg"] {
+  font-size: 120%;
+}
+
+mjx-container [size="Lg"] {
+  font-size: 144%;
+}
+
+mjx-container [size="LG"] {
+  font-size: 173%;
+}
+
+mjx-container [size="hg"] {
+  font-size: 207%;
+}
+
+mjx-container [size="HG"] {
+  font-size: 249%;
+}
+
+mjx-container [width="full"] {
+  width: 100%;
+}
+
+mjx-box {
+  display: inline-block;
+}
+
+mjx-block {
+  display: block;
+}
+
+mjx-itable {
+  display: inline-table;
+}
+
+mjx-row {
+  display: table-row;
+}
+
+mjx-row > * {
+  display: table-cell;
+}
+
+mjx-mtext {
+  display: inline-block;
+}
+
+mjx-mstyle {
+  display: inline-block;
+}
+
+mjx-merror {
+  display: inline-block;
+  color: red;
+  background-color: yellow;
+}
+
+mjx-mphantom {
+  visibility: hidden;
+}
+
+_::-webkit-full-page-media, _:future, :root mjx-container {
+  will-change: opacity;
+}
+
+mjx-assistive-mml {
+  position: absolute !important;
+  top: 0px;
+  left: 0px;
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 1px 0px 0px 0px !important;
+  border: 0px !important;
+  display: block !important;
+  width: auto !important;
+  overflow: hidden !important;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+mjx-assistive-mml[display="block"] {
+  width: 100% !important;
+}
+
+mjx-c::before {
+  display: block;
+  width: 0;
+}
+
+.MJX-TEX {
+  font-family: MJXZERO, MJXTEX;
+}
+
+.TEX-B {
+  font-family: MJXZERO, MJXTEX-B;
+}
+
+.TEX-I {
+  font-family: MJXZERO, MJXTEX-I;
+}
+
+.TEX-MI {
+  font-family: MJXZERO, MJXTEX-MI;
+}
+
+.TEX-BI {
+  font-family: MJXZERO, MJXTEX-BI;
+}
+
+.TEX-S1 {
+  font-family: MJXZERO, MJXTEX-S1;
+}
+
+.TEX-S2 {
+  font-family: MJXZERO, MJXTEX-S2;
+}
+
+.TEX-S3 {
+  font-family: MJXZERO, MJXTEX-S3;
+}
+
+.TEX-S4 {
+  font-family: MJXZERO, MJXTEX-S4;
+}
+
+.TEX-A {
+  font-family: MJXZERO, MJXTEX-A;
+}
+
+.TEX-C {
+  font-family: MJXZERO, MJXTEX-C;
+}
+
+.TEX-CB {
+  font-family: MJXZERO, MJXTEX-CB;
+}
+
+.TEX-FR {
+  font-family: MJXZERO, MJXTEX-FR;
+}
+
+.TEX-FRB {
+  font-family: MJXZERO, MJXTEX-FRB;
+}
+
+.TEX-SS {
+  font-family: MJXZERO, MJXTEX-SS;
+}
+
+.TEX-SSB {
+  font-family: MJXZERO, MJXTEX-SSB;
+}
+
+.TEX-SSI {
+  font-family: MJXZERO, MJXTEX-SSI;
+}
+
+.TEX-SC {
+  font-family: MJXZERO, MJXTEX-SC;
+}
+
+.TEX-T {
+  font-family: MJXZERO, MJXTEX-T;
+}
+
+.TEX-V {
+  font-family: MJXZERO, MJXTEX-V;
+}
+
+.TEX-VB {
+  font-family: MJXZERO, MJXTEX-VB;
+}
+
+mjx-stretchy-v mjx-c, mjx-stretchy-h mjx-c {
+  font-family: MJXZERO, MJXTEX-S1, MJXTEX-S4, MJXTEX, MJXTEX-A ! important;
+}
+
+@font-face /* 0 */ {
+  font-family: MJXZERO;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3.2.0/es5/output/chtml/fonts/woff-v2/MathJax_Zero.woff") format("woff");
+}
+
+@font-face /* 1 */ {
+  font-family: MJXTEX;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3.2.0/es5/output/chtml/fonts/woff-v2/MathJax_Main-Regular.woff") format("woff");
+}
+
+@font-face /* 2 */ {
+  font-family: MJXTEX-B;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3.2.0/es5/output/chtml/fonts/woff-v2/MathJax_Main-Bold.woff") format("woff");
+}
+
+@font-face /* 3 */ {
+  font-family: MJXTEX-I;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3.2.0/es5/output/chtml/fonts/woff-v2/MathJax_Math-Italic.woff") format("woff");
+}
+
+@font-face /* 4 */ {
+  font-family: MJXTEX-MI;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3.2.0/es5/output/chtml/fonts/woff-v2/MathJax_Main-Italic.woff") format("woff");
+}
+
+@font-face /* 5 */ {
+  font-family: MJXTEX-BI;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3.2.0/es5/output/chtml/fonts/woff-v2/MathJax_Math-BoldItalic.woff") format("woff");
+}
+
+@font-face /* 6 */ {
+  font-family: MJXTEX-S1;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3.2.0/es5/output/chtml/fonts/woff-v2/MathJax_Size1-Regular.woff") format("woff");
+}
+
+@font-face /* 7 */ {
+  font-family: MJXTEX-S2;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3.2.0/es5/output/chtml/fonts/woff-v2/MathJax_Size2-Regular.woff") format("woff");
+}
+
+@font-face /* 8 */ {
+  font-family: MJXTEX-S3;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3.2.0/es5/output/chtml/fonts/woff-v2/MathJax_Size3-Regular.woff") format("woff");
+}
+
+@font-face /* 9 */ {
+  font-family: MJXTEX-S4;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3.2.0/es5/output/chtml/fonts/woff-v2/MathJax_Size4-Regular.woff") format("woff");
+}
+
+@font-face /* 10 */ {
+  font-family: MJXTEX-A;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3.2.0/es5/output/chtml/fonts/woff-v2/MathJax_AMS-Regular.woff") format("woff");
+}
+
+@font-face /* 11 */ {
+  font-family: MJXTEX-C;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3.2.0/es5/output/chtml/fonts/woff-v2/MathJax_Calligraphic-Regular.woff") format("woff");
+}
+
+@font-face /* 12 */ {
+  font-family: MJXTEX-CB;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3.2.0/es5/output/chtml/fonts/woff-v2/MathJax_Calligraphic-Bold.woff") format("woff");
+}
+
+@font-face /* 13 */ {
+  font-family: MJXTEX-FR;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3.2.0/es5/output/chtml/fonts/woff-v2/MathJax_Fraktur-Regular.woff") format("woff");
+}
+
+@font-face /* 14 */ {
+  font-family: MJXTEX-FRB;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3.2.0/es5/output/chtml/fonts/woff-v2/MathJax_Fraktur-Bold.woff") format("woff");
+}
+
+@font-face /* 15 */ {
+  font-family: MJXTEX-SS;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3.2.0/es5/output/chtml/fonts/woff-v2/MathJax_SansSerif-Regular.woff") format("woff");
+}
+
+@font-face /* 16 */ {
+  font-family: MJXTEX-SSB;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3.2.0/es5/output/chtml/fonts/woff-v2/MathJax_SansSerif-Bold.woff") format("woff");
+}
+
+@font-face /* 17 */ {
+  font-family: MJXTEX-SSI;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3.2.0/es5/output/chtml/fonts/woff-v2/MathJax_SansSerif-Italic.woff") format("woff");
+}
+
+@font-face /* 18 */ {
+  font-family: MJXTEX-SC;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3.2.0/es5/output/chtml/fonts/woff-v2/MathJax_Script-Regular.woff") format("woff");
+}
+
+@font-face /* 19 */ {
+  font-family: MJXTEX-T;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3.2.0/es5/output/chtml/fonts/woff-v2/MathJax_Typewriter-Regular.woff") format("woff");
+}
+
+@font-face /* 20 */ {
+  font-family: MJXTEX-V;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3.2.0/es5/output/chtml/fonts/woff-v2/MathJax_Vector-Regular.woff") format("woff");
+}
+
+@font-face /* 21 */ {
+  font-family: MJXTEX-VB;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3.2.0/es5/output/chtml/fonts/woff-v2/MathJax_Vector-Bold.woff") format("woff");
+}
+</style><link rel="modulepreload" as="script" crossorigin="" href="https://app2.algobash.com/assets/Monaco-b9e7a9f6.js"><link rel="stylesheet" href="./IT Paragon Programming Test Basic - Front-End - Batch Aug 2023 - Test Pemrograman Dasar Level 1_files/Monaco-ac9b8205.css"><style type="text/css" media="screen" class="monaco-colors">.codicon-add:before { content: '\ea60'; }
+.codicon-plus:before { content: '\ea60'; }
+.codicon-gist-new:before { content: '\ea60'; }
+.codicon-repo-create:before { content: '\ea60'; }
+.codicon-lightbulb:before { content: '\ea61'; }
+.codicon-light-bulb:before { content: '\ea61'; }
+.codicon-repo:before { content: '\ea62'; }
+.codicon-repo-delete:before { content: '\ea62'; }
+.codicon-gist-fork:before { content: '\ea63'; }
+.codicon-repo-forked:before { content: '\ea63'; }
+.codicon-git-pull-request:before { content: '\ea64'; }
+.codicon-git-pull-request-abandoned:before { content: '\ea64'; }
+.codicon-record-keys:before { content: '\ea65'; }
+.codicon-keyboard:before { content: '\ea65'; }
+.codicon-tag:before { content: '\ea66'; }
+.codicon-tag-add:before { content: '\ea66'; }
+.codicon-tag-remove:before { content: '\ea66'; }
+.codicon-person:before { content: '\ea67'; }
+.codicon-person-follow:before { content: '\ea67'; }
+.codicon-person-outline:before { content: '\ea67'; }
+.codicon-person-filled:before { content: '\ea67'; }
+.codicon-git-branch:before { content: '\ea68'; }
+.codicon-git-branch-create:before { content: '\ea68'; }
+.codicon-git-branch-delete:before { content: '\ea68'; }
+.codicon-source-control:before { content: '\ea68'; }
+.codicon-mirror:before { content: '\ea69'; }
+.codicon-mirror-public:before { content: '\ea69'; }
+.codicon-star:before { content: '\ea6a'; }
+.codicon-star-add:before { content: '\ea6a'; }
+.codicon-star-delete:before { content: '\ea6a'; }
+.codicon-star-empty:before { content: '\ea6a'; }
+.codicon-comment:before { content: '\ea6b'; }
+.codicon-comment-add:before { content: '\ea6b'; }
+.codicon-alert:before { content: '\ea6c'; }
+.codicon-warning:before { content: '\ea6c'; }
+.codicon-search:before { content: '\ea6d'; }
+.codicon-search-save:before { content: '\ea6d'; }
+.codicon-log-out:before { content: '\ea6e'; }
+.codicon-sign-out:before { content: '\ea6e'; }
+.codicon-log-in:before { content: '\ea6f'; }
+.codicon-sign-in:before { content: '\ea6f'; }
+.codicon-eye:before { content: '\ea70'; }
+.codicon-eye-unwatch:before { content: '\ea70'; }
+.codicon-eye-watch:before { content: '\ea70'; }
+.codicon-circle-filled:before { content: '\ea71'; }
+.codicon-primitive-dot:before { content: '\ea71'; }
+.codicon-close-dirty:before { content: '\ea71'; }
+.codicon-debug-breakpoint:before { content: '\ea71'; }
+.codicon-debug-breakpoint-disabled:before { content: '\ea71'; }
+.codicon-debug-hint:before { content: '\ea71'; }
+.codicon-primitive-square:before { content: '\ea72'; }
+.codicon-edit:before { content: '\ea73'; }
+.codicon-pencil:before { content: '\ea73'; }
+.codicon-info:before { content: '\ea74'; }
+.codicon-issue-opened:before { content: '\ea74'; }
+.codicon-gist-private:before { content: '\ea75'; }
+.codicon-git-fork-private:before { content: '\ea75'; }
+.codicon-lock:before { content: '\ea75'; }
+.codicon-mirror-private:before { content: '\ea75'; }
+.codicon-close:before { content: '\ea76'; }
+.codicon-remove-close:before { content: '\ea76'; }
+.codicon-x:before { content: '\ea76'; }
+.codicon-repo-sync:before { content: '\ea77'; }
+.codicon-sync:before { content: '\ea77'; }
+.codicon-clone:before { content: '\ea78'; }
+.codicon-desktop-download:before { content: '\ea78'; }
+.codicon-beaker:before { content: '\ea79'; }
+.codicon-microscope:before { content: '\ea79'; }
+.codicon-vm:before { content: '\ea7a'; }
+.codicon-device-desktop:before { content: '\ea7a'; }
+.codicon-file:before { content: '\ea7b'; }
+.codicon-file-text:before { content: '\ea7b'; }
+.codicon-more:before { content: '\ea7c'; }
+.codicon-ellipsis:before { content: '\ea7c'; }
+.codicon-kebab-horizontal:before { content: '\ea7c'; }
+.codicon-mail-reply:before { content: '\ea7d'; }
+.codicon-reply:before { content: '\ea7d'; }
+.codicon-organization:before { content: '\ea7e'; }
+.codicon-organization-filled:before { content: '\ea7e'; }
+.codicon-organization-outline:before { content: '\ea7e'; }
+.codicon-new-file:before { content: '\ea7f'; }
+.codicon-file-add:before { content: '\ea7f'; }
+.codicon-new-folder:before { content: '\ea80'; }
+.codicon-file-directory-create:before { content: '\ea80'; }
+.codicon-trash:before { content: '\ea81'; }
+.codicon-trashcan:before { content: '\ea81'; }
+.codicon-history:before { content: '\ea82'; }
+.codicon-clock:before { content: '\ea82'; }
+.codicon-folder:before { content: '\ea83'; }
+.codicon-file-directory:before { content: '\ea83'; }
+.codicon-symbol-folder:before { content: '\ea83'; }
+.codicon-logo-github:before { content: '\ea84'; }
+.codicon-mark-github:before { content: '\ea84'; }
+.codicon-github:before { content: '\ea84'; }
+.codicon-terminal:before { content: '\ea85'; }
+.codicon-console:before { content: '\ea85'; }
+.codicon-repl:before { content: '\ea85'; }
+.codicon-zap:before { content: '\ea86'; }
+.codicon-symbol-event:before { content: '\ea86'; }
+.codicon-error:before { content: '\ea87'; }
+.codicon-stop:before { content: '\ea87'; }
+.codicon-variable:before { content: '\ea88'; }
+.codicon-symbol-variable:before { content: '\ea88'; }
+.codicon-array:before { content: '\ea8a'; }
+.codicon-symbol-array:before { content: '\ea8a'; }
+.codicon-symbol-module:before { content: '\ea8b'; }
+.codicon-symbol-package:before { content: '\ea8b'; }
+.codicon-symbol-namespace:before { content: '\ea8b'; }
+.codicon-symbol-object:before { content: '\ea8b'; }
+.codicon-symbol-method:before { content: '\ea8c'; }
+.codicon-symbol-function:before { content: '\ea8c'; }
+.codicon-symbol-constructor:before { content: '\ea8c'; }
+.codicon-symbol-boolean:before { content: '\ea8f'; }
+.codicon-symbol-null:before { content: '\ea8f'; }
+.codicon-symbol-numeric:before { content: '\ea90'; }
+.codicon-symbol-number:before { content: '\ea90'; }
+.codicon-symbol-structure:before { content: '\ea91'; }
+.codicon-symbol-struct:before { content: '\ea91'; }
+.codicon-symbol-parameter:before { content: '\ea92'; }
+.codicon-symbol-type-parameter:before { content: '\ea92'; }
+.codicon-symbol-key:before { content: '\ea93'; }
+.codicon-symbol-text:before { content: '\ea93'; }
+.codicon-symbol-reference:before { content: '\ea94'; }
+.codicon-go-to-file:before { content: '\ea94'; }
+.codicon-symbol-enum:before { content: '\ea95'; }
+.codicon-symbol-value:before { content: '\ea95'; }
+.codicon-symbol-ruler:before { content: '\ea96'; }
+.codicon-symbol-unit:before { content: '\ea96'; }
+.codicon-activate-breakpoints:before { content: '\ea97'; }
+.codicon-archive:before { content: '\ea98'; }
+.codicon-arrow-both:before { content: '\ea99'; }
+.codicon-arrow-down:before { content: '\ea9a'; }
+.codicon-arrow-left:before { content: '\ea9b'; }
+.codicon-arrow-right:before { content: '\ea9c'; }
+.codicon-arrow-small-down:before { content: '\ea9d'; }
+.codicon-arrow-small-left:before { content: '\ea9e'; }
+.codicon-arrow-small-right:before { content: '\ea9f'; }
+.codicon-arrow-small-up:before { content: '\eaa0'; }
+.codicon-arrow-up:before { content: '\eaa1'; }
+.codicon-bell:before { content: '\eaa2'; }
+.codicon-bold:before { content: '\eaa3'; }
+.codicon-book:before { content: '\eaa4'; }
+.codicon-bookmark:before { content: '\eaa5'; }
+.codicon-debug-breakpoint-conditional-unverified:before { content: '\eaa6'; }
+.codicon-debug-breakpoint-conditional:before { content: '\eaa7'; }
+.codicon-debug-breakpoint-conditional-disabled:before { content: '\eaa7'; }
+.codicon-debug-breakpoint-data-unverified:before { content: '\eaa8'; }
+.codicon-debug-breakpoint-data:before { content: '\eaa9'; }
+.codicon-debug-breakpoint-data-disabled:before { content: '\eaa9'; }
+.codicon-debug-breakpoint-log-unverified:before { content: '\eaaa'; }
+.codicon-debug-breakpoint-log:before { content: '\eaab'; }
+.codicon-debug-breakpoint-log-disabled:before { content: '\eaab'; }
+.codicon-briefcase:before { content: '\eaac'; }
+.codicon-broadcast:before { content: '\eaad'; }
+.codicon-browser:before { content: '\eaae'; }
+.codicon-bug:before { content: '\eaaf'; }
+.codicon-calendar:before { content: '\eab0'; }
+.codicon-case-sensitive:before { content: '\eab1'; }
+.codicon-check:before { content: '\eab2'; }
+.codicon-checklist:before { content: '\eab3'; }
+.codicon-chevron-down:before { content: '\eab4'; }
+.codicon-drop-down-button:before { content: '\eab4'; }
+.codicon-chevron-left:before { content: '\eab5'; }
+.codicon-chevron-right:before { content: '\eab6'; }
+.codicon-chevron-up:before { content: '\eab7'; }
+.codicon-chrome-close:before { content: '\eab8'; }
+.codicon-chrome-maximize:before { content: '\eab9'; }
+.codicon-chrome-minimize:before { content: '\eaba'; }
+.codicon-chrome-restore:before { content: '\eabb'; }
+.codicon-circle:before { content: '\eabc'; }
+.codicon-circle-outline:before { content: '\eabc'; }
+.codicon-debug-breakpoint-unverified:before { content: '\eabc'; }
+.codicon-circle-slash:before { content: '\eabd'; }
+.codicon-circuit-board:before { content: '\eabe'; }
+.codicon-clear-all:before { content: '\eabf'; }
+.codicon-clippy:before { content: '\eac0'; }
+.codicon-close-all:before { content: '\eac1'; }
+.codicon-cloud-download:before { content: '\eac2'; }
+.codicon-cloud-upload:before { content: '\eac3'; }
+.codicon-code:before { content: '\eac4'; }
+.codicon-collapse-all:before { content: '\eac5'; }
+.codicon-color-mode:before { content: '\eac6'; }
+.codicon-comment-discussion:before { content: '\eac7'; }
+.codicon-compare-changes:before { content: '\eafd'; }
+.codicon-credit-card:before { content: '\eac9'; }
+.codicon-dash:before { content: '\eacc'; }
+.codicon-dashboard:before { content: '\eacd'; }
+.codicon-database:before { content: '\eace'; }
+.codicon-debug-continue:before { content: '\eacf'; }
+.codicon-debug-disconnect:before { content: '\ead0'; }
+.codicon-debug-pause:before { content: '\ead1'; }
+.codicon-debug-restart:before { content: '\ead2'; }
+.codicon-debug-start:before { content: '\ead3'; }
+.codicon-debug-step-into:before { content: '\ead4'; }
+.codicon-debug-step-out:before { content: '\ead5'; }
+.codicon-debug-step-over:before { content: '\ead6'; }
+.codicon-debug-stop:before { content: '\ead7'; }
+.codicon-debug:before { content: '\ead8'; }
+.codicon-device-camera-video:before { content: '\ead9'; }
+.codicon-device-camera:before { content: '\eada'; }
+.codicon-device-mobile:before { content: '\eadb'; }
+.codicon-diff-added:before { content: '\eadc'; }
+.codicon-diff-ignored:before { content: '\eadd'; }
+.codicon-diff-modified:before { content: '\eade'; }
+.codicon-diff-removed:before { content: '\eadf'; }
+.codicon-diff-renamed:before { content: '\eae0'; }
+.codicon-diff:before { content: '\eae1'; }
+.codicon-discard:before { content: '\eae2'; }
+.codicon-editor-layout:before { content: '\eae3'; }
+.codicon-empty-window:before { content: '\eae4'; }
+.codicon-exclude:before { content: '\eae5'; }
+.codicon-extensions:before { content: '\eae6'; }
+.codicon-eye-closed:before { content: '\eae7'; }
+.codicon-file-binary:before { content: '\eae8'; }
+.codicon-file-code:before { content: '\eae9'; }
+.codicon-file-media:before { content: '\eaea'; }
+.codicon-file-pdf:before { content: '\eaeb'; }
+.codicon-file-submodule:before { content: '\eaec'; }
+.codicon-file-symlink-directory:before { content: '\eaed'; }
+.codicon-file-symlink-file:before { content: '\eaee'; }
+.codicon-file-zip:before { content: '\eaef'; }
+.codicon-files:before { content: '\eaf0'; }
+.codicon-filter:before { content: '\eaf1'; }
+.codicon-flame:before { content: '\eaf2'; }
+.codicon-fold-down:before { content: '\eaf3'; }
+.codicon-fold-up:before { content: '\eaf4'; }
+.codicon-fold:before { content: '\eaf5'; }
+.codicon-folder-active:before { content: '\eaf6'; }
+.codicon-folder-opened:before { content: '\eaf7'; }
+.codicon-gear:before { content: '\eaf8'; }
+.codicon-gift:before { content: '\eaf9'; }
+.codicon-gist-secret:before { content: '\eafa'; }
+.codicon-gist:before { content: '\eafb'; }
+.codicon-git-commit:before { content: '\eafc'; }
+.codicon-git-compare:before { content: '\eafd'; }
+.codicon-git-merge:before { content: '\eafe'; }
+.codicon-github-action:before { content: '\eaff'; }
+.codicon-github-alt:before { content: '\eb00'; }
+.codicon-globe:before { content: '\eb01'; }
+.codicon-grabber:before { content: '\eb02'; }
+.codicon-graph:before { content: '\eb03'; }
+.codicon-gripper:before { content: '\eb04'; }
+.codicon-heart:before { content: '\eb05'; }
+.codicon-home:before { content: '\eb06'; }
+.codicon-horizontal-rule:before { content: '\eb07'; }
+.codicon-hubot:before { content: '\eb08'; }
+.codicon-inbox:before { content: '\eb09'; }
+.codicon-issue-closed:before { content: '\eba4'; }
+.codicon-issue-reopened:before { content: '\eb0b'; }
+.codicon-issues:before { content: '\eb0c'; }
+.codicon-italic:before { content: '\eb0d'; }
+.codicon-jersey:before { content: '\eb0e'; }
+.codicon-json:before { content: '\eb0f'; }
+.codicon-bracket:before { content: '\eb0f'; }
+.codicon-kebab-vertical:before { content: '\eb10'; }
+.codicon-key:before { content: '\eb11'; }
+.codicon-law:before { content: '\eb12'; }
+.codicon-lightbulb-autofix:before { content: '\eb13'; }
+.codicon-link-external:before { content: '\eb14'; }
+.codicon-link:before { content: '\eb15'; }
+.codicon-list-ordered:before { content: '\eb16'; }
+.codicon-list-unordered:before { content: '\eb17'; }
+.codicon-live-share:before { content: '\eb18'; }
+.codicon-loading:before { content: '\eb19'; }
+.codicon-location:before { content: '\eb1a'; }
+.codicon-mail-read:before { content: '\eb1b'; }
+.codicon-mail:before { content: '\eb1c'; }
+.codicon-markdown:before { content: '\eb1d'; }
+.codicon-megaphone:before { content: '\eb1e'; }
+.codicon-mention:before { content: '\eb1f'; }
+.codicon-milestone:before { content: '\eb20'; }
+.codicon-mortar-board:before { content: '\eb21'; }
+.codicon-move:before { content: '\eb22'; }
+.codicon-multiple-windows:before { content: '\eb23'; }
+.codicon-mute:before { content: '\eb24'; }
+.codicon-no-newline:before { content: '\eb25'; }
+.codicon-note:before { content: '\eb26'; }
+.codicon-octoface:before { content: '\eb27'; }
+.codicon-open-preview:before { content: '\eb28'; }
+.codicon-package:before { content: '\eb29'; }
+.codicon-paintcan:before { content: '\eb2a'; }
+.codicon-pin:before { content: '\eb2b'; }
+.codicon-play:before { content: '\eb2c'; }
+.codicon-run:before { content: '\eb2c'; }
+.codicon-plug:before { content: '\eb2d'; }
+.codicon-preserve-case:before { content: '\eb2e'; }
+.codicon-preview:before { content: '\eb2f'; }
+.codicon-project:before { content: '\eb30'; }
+.codicon-pulse:before { content: '\eb31'; }
+.codicon-question:before { content: '\eb32'; }
+.codicon-quote:before { content: '\eb33'; }
+.codicon-radio-tower:before { content: '\eb34'; }
+.codicon-reactions:before { content: '\eb35'; }
+.codicon-references:before { content: '\eb36'; }
+.codicon-refresh:before { content: '\eb37'; }
+.codicon-regex:before { content: '\eb38'; }
+.codicon-remote-explorer:before { content: '\eb39'; }
+.codicon-remote:before { content: '\eb3a'; }
+.codicon-remove:before { content: '\eb3b'; }
+.codicon-replace-all:before { content: '\eb3c'; }
+.codicon-replace:before { content: '\eb3d'; }
+.codicon-repo-clone:before { content: '\eb3e'; }
+.codicon-repo-force-push:before { content: '\eb3f'; }
+.codicon-repo-pull:before { content: '\eb40'; }
+.codicon-repo-push:before { content: '\eb41'; }
+.codicon-report:before { content: '\eb42'; }
+.codicon-request-changes:before { content: '\eb43'; }
+.codicon-rocket:before { content: '\eb44'; }
+.codicon-root-folder-opened:before { content: '\eb45'; }
+.codicon-root-folder:before { content: '\eb46'; }
+.codicon-rss:before { content: '\eb47'; }
+.codicon-ruby:before { content: '\eb48'; }
+.codicon-save-all:before { content: '\eb49'; }
+.codicon-save-as:before { content: '\eb4a'; }
+.codicon-save:before { content: '\eb4b'; }
+.codicon-screen-full:before { content: '\eb4c'; }
+.codicon-screen-normal:before { content: '\eb4d'; }
+.codicon-search-stop:before { content: '\eb4e'; }
+.codicon-server:before { content: '\eb50'; }
+.codicon-settings-gear:before { content: '\eb51'; }
+.codicon-settings:before { content: '\eb52'; }
+.codicon-shield:before { content: '\eb53'; }
+.codicon-smiley:before { content: '\eb54'; }
+.codicon-sort-precedence:before { content: '\eb55'; }
+.codicon-split-horizontal:before { content: '\eb56'; }
+.codicon-split-vertical:before { content: '\eb57'; }
+.codicon-squirrel:before { content: '\eb58'; }
+.codicon-star-full:before { content: '\eb59'; }
+.codicon-star-half:before { content: '\eb5a'; }
+.codicon-symbol-class:before { content: '\eb5b'; }
+.codicon-symbol-color:before { content: '\eb5c'; }
+.codicon-symbol-customcolor:before { content: '\eb5c'; }
+.codicon-symbol-constant:before { content: '\eb5d'; }
+.codicon-symbol-enum-member:before { content: '\eb5e'; }
+.codicon-symbol-field:before { content: '\eb5f'; }
+.codicon-symbol-file:before { content: '\eb60'; }
+.codicon-symbol-interface:before { content: '\eb61'; }
+.codicon-symbol-keyword:before { content: '\eb62'; }
+.codicon-symbol-misc:before { content: '\eb63'; }
+.codicon-symbol-operator:before { content: '\eb64'; }
+.codicon-symbol-property:before { content: '\eb65'; }
+.codicon-wrench:before { content: '\eb65'; }
+.codicon-wrench-subaction:before { content: '\eb65'; }
+.codicon-symbol-snippet:before { content: '\eb66'; }
+.codicon-tasklist:before { content: '\eb67'; }
+.codicon-telescope:before { content: '\eb68'; }
+.codicon-text-size:before { content: '\eb69'; }
+.codicon-three-bars:before { content: '\eb6a'; }
+.codicon-thumbsdown:before { content: '\eb6b'; }
+.codicon-thumbsup:before { content: '\eb6c'; }
+.codicon-tools:before { content: '\eb6d'; }
+.codicon-triangle-down:before { content: '\eb6e'; }
+.codicon-triangle-left:before { content: '\eb6f'; }
+.codicon-triangle-right:before { content: '\eb70'; }
+.codicon-triangle-up:before { content: '\eb71'; }
+.codicon-twitter:before { content: '\eb72'; }
+.codicon-unfold:before { content: '\eb73'; }
+.codicon-unlock:before { content: '\eb74'; }
+.codicon-unmute:before { content: '\eb75'; }
+.codicon-unverified:before { content: '\eb76'; }
+.codicon-verified:before { content: '\eb77'; }
+.codicon-versions:before { content: '\eb78'; }
+.codicon-vm-active:before { content: '\eb79'; }
+.codicon-vm-outline:before { content: '\eb7a'; }
+.codicon-vm-running:before { content: '\eb7b'; }
+.codicon-watch:before { content: '\eb7c'; }
+.codicon-whitespace:before { content: '\eb7d'; }
+.codicon-whole-word:before { content: '\eb7e'; }
+.codicon-window:before { content: '\eb7f'; }
+.codicon-word-wrap:before { content: '\eb80'; }
+.codicon-zoom-in:before { content: '\eb81'; }
+.codicon-zoom-out:before { content: '\eb82'; }
+.codicon-list-filter:before { content: '\eb83'; }
+.codicon-list-flat:before { content: '\eb84'; }
+.codicon-list-selection:before { content: '\eb85'; }
+.codicon-selection:before { content: '\eb85'; }
+.codicon-list-tree:before { content: '\eb86'; }
+.codicon-debug-breakpoint-function-unverified:before { content: '\eb87'; }
+.codicon-debug-breakpoint-function:before { content: '\eb88'; }
+.codicon-debug-breakpoint-function-disabled:before { content: '\eb88'; }
+.codicon-debug-stackframe-active:before { content: '\eb89'; }
+.codicon-circle-small-filled:before { content: '\eb8a'; }
+.codicon-debug-stackframe-dot:before { content: '\eb8a'; }
+.codicon-debug-stackframe:before { content: '\eb8b'; }
+.codicon-debug-stackframe-focused:before { content: '\eb8b'; }
+.codicon-debug-breakpoint-unsupported:before { content: '\eb8c'; }
+.codicon-symbol-string:before { content: '\eb8d'; }
+.codicon-debug-reverse-continue:before { content: '\eb8e'; }
+.codicon-debug-step-back:before { content: '\eb8f'; }
+.codicon-debug-restart-frame:before { content: '\eb90'; }
+.codicon-call-incoming:before { content: '\eb92'; }
+.codicon-call-outgoing:before { content: '\eb93'; }
+.codicon-menu:before { content: '\eb94'; }
+.codicon-expand-all:before { content: '\eb95'; }
+.codicon-feedback:before { content: '\eb96'; }
+.codicon-group-by-ref-type:before { content: '\eb97'; }
+.codicon-ungroup-by-ref-type:before { content: '\eb98'; }
+.codicon-account:before { content: '\eb99'; }
+.codicon-bell-dot:before { content: '\eb9a'; }
+.codicon-debug-console:before { content: '\eb9b'; }
+.codicon-library:before { content: '\eb9c'; }
+.codicon-output:before { content: '\eb9d'; }
+.codicon-run-all:before { content: '\eb9e'; }
+.codicon-sync-ignored:before { content: '\eb9f'; }
+.codicon-pinned:before { content: '\eba0'; }
+.codicon-github-inverted:before { content: '\eba1'; }
+.codicon-debug-alt:before { content: '\eb91'; }
+.codicon-server-process:before { content: '\eba2'; }
+.codicon-server-environment:before { content: '\eba3'; }
+.codicon-pass:before { content: '\eba4'; }
+.codicon-stop-circle:before { content: '\eba5'; }
+.codicon-play-circle:before { content: '\eba6'; }
+.codicon-record:before { content: '\eba7'; }
+.codicon-debug-alt-small:before { content: '\eba8'; }
+.codicon-vm-connect:before { content: '\eba9'; }
+.codicon-cloud:before { content: '\ebaa'; }
+.codicon-merge:before { content: '\ebab'; }
+.codicon-export:before { content: '\ebac'; }
+.codicon-graph-left:before { content: '\ebad'; }
+.codicon-magnet:before { content: '\ebae'; }
+.codicon-notebook:before { content: '\ebaf'; }
+.codicon-redo:before { content: '\ebb0'; }
+.codicon-check-all:before { content: '\ebb1'; }
+.codicon-pinned-dirty:before { content: '\ebb2'; }
+.codicon-pass-filled:before { content: '\ebb3'; }
+.codicon-circle-large-filled:before { content: '\ebb4'; }
+.codicon-circle-large:before { content: '\ebb5'; }
+.codicon-circle-large-outline:before { content: '\ebb5'; }
+.codicon-combine:before { content: '\ebb6'; }
+.codicon-gather:before { content: '\ebb6'; }
+.codicon-table:before { content: '\ebb7'; }
+.codicon-variable-group:before { content: '\ebb8'; }
+.codicon-type-hierarchy:before { content: '\ebb9'; }
+.codicon-type-hierarchy-sub:before { content: '\ebba'; }
+.codicon-type-hierarchy-super:before { content: '\ebbb'; }
+.codicon-git-pull-request-create:before { content: '\ebbc'; }
+.codicon-run-above:before { content: '\ebbd'; }
+.codicon-run-below:before { content: '\ebbe'; }
+.codicon-notebook-template:before { content: '\ebbf'; }
+.codicon-debug-rerun:before { content: '\ebc0'; }
+.codicon-workspace-trusted:before { content: '\ebc1'; }
+.codicon-workspace-untrusted:before { content: '\ebc2'; }
+.codicon-workspace-unspecified:before { content: '\ebc3'; }
+.codicon-terminal-cmd:before { content: '\ebc4'; }
+.codicon-terminal-debian:before { content: '\ebc5'; }
+.codicon-terminal-linux:before { content: '\ebc6'; }
+.codicon-terminal-powershell:before { content: '\ebc7'; }
+.codicon-terminal-tmux:before { content: '\ebc8'; }
+.codicon-terminal-ubuntu:before { content: '\ebc9'; }
+.codicon-terminal-bash:before { content: '\ebca'; }
+.codicon-arrow-swap:before { content: '\ebcb'; }
+.codicon-copy:before { content: '\ebcc'; }
+.codicon-person-add:before { content: '\ebcd'; }
+.codicon-filter-filled:before { content: '\ebce'; }
+.codicon-wand:before { content: '\ebcf'; }
+.codicon-debug-line-by-line:before { content: '\ebd0'; }
+.codicon-inspect:before { content: '\ebd1'; }
+.codicon-layers:before { content: '\ebd2'; }
+.codicon-layers-dot:before { content: '\ebd3'; }
+.codicon-layers-active:before { content: '\ebd4'; }
+.codicon-compass:before { content: '\ebd5'; }
+.codicon-compass-dot:before { content: '\ebd6'; }
+.codicon-compass-active:before { content: '\ebd7'; }
+.codicon-azure:before { content: '\ebd8'; }
+.codicon-issue-draft:before { content: '\ebd9'; }
+.codicon-git-pull-request-closed:before { content: '\ebda'; }
+.codicon-git-pull-request-draft:before { content: '\ebdb'; }
+.codicon-debug-all:before { content: '\ebdc'; }
+.codicon-debug-coverage:before { content: '\ebdd'; }
+.codicon-run-errors:before { content: '\ebde'; }
+.codicon-folder-library:before { content: '\ebdf'; }
+.codicon-debug-continue-small:before { content: '\ebe0'; }
+.codicon-beaker-stop:before { content: '\ebe1'; }
+.codicon-graph-line:before { content: '\ebe2'; }
+.codicon-graph-scatter:before { content: '\ebe3'; }
+.codicon-pie-chart:before { content: '\ebe4'; }
+.codicon-bracket-dot:before { content: '\ebe5'; }
+.codicon-bracket-error:before { content: '\ebe6'; }
+.codicon-lock-small:before { content: '\ebe7'; }
+.codicon-azure-devops:before { content: '\ebe8'; }
+.codicon-verified-filled:before { content: '\ebe9'; }
+.codicon-newline:before { content: '\ebea'; }
+.codicon-layout:before { content: '\ebeb'; }
+.codicon-layout-activitybar-left:before { content: '\ebec'; }
+.codicon-layout-activitybar-right:before { content: '\ebed'; }
+.codicon-layout-panel-left:before { content: '\ebee'; }
+.codicon-layout-panel-center:before { content: '\ebef'; }
+.codicon-layout-panel-justify:before { content: '\ebf0'; }
+.codicon-layout-panel-right:before { content: '\ebf1'; }
+.codicon-layout-panel:before { content: '\ebf2'; }
+.codicon-layout-sidebar-left:before { content: '\ebf3'; }
+.codicon-layout-sidebar-right:before { content: '\ebf4'; }
+.codicon-layout-statusbar:before { content: '\ebf5'; }
+.codicon-layout-menubar:before { content: '\ebf6'; }
+.codicon-layout-centered:before { content: '\ebf7'; }
+.codicon-layout-sidebar-right-off:before { content: '\ec00'; }
+.codicon-layout-panel-off:before { content: '\ec01'; }
+.codicon-layout-sidebar-left-off:before { content: '\ec02'; }
+.codicon-target:before { content: '\ebf8'; }
+.codicon-indent:before { content: '\ebf9'; }
+.codicon-record-small:before { content: '\ebfa'; }
+.codicon-error-small:before { content: '\ebfb'; }
+.codicon-arrow-circle-down:before { content: '\ebfc'; }
+.codicon-arrow-circle-left:before { content: '\ebfd'; }
+.codicon-arrow-circle-right:before { content: '\ebfe'; }
+.codicon-arrow-circle-up:before { content: '\ebff'; }
+.codicon-heart-filled:before { content: '\ec04'; }
+.codicon-map:before { content: '\ec05'; }
+.codicon-map-filled:before { content: '\ec06'; }
+.codicon-circle-small:before { content: '\ec07'; }
+.codicon-bell-slash:before { content: '\ec08'; }
+.codicon-bell-slash-dot:before { content: '\ec09'; }
+.codicon-comment-unresolved:before { content: '\ec0a'; }
+.codicon-git-pull-request-go-to-changes:before { content: '\ec0b'; }
+.codicon-git-pull-request-new-changes:before { content: '\ec0c'; }
+.codicon-search-fuzzy:before { content: '\ec0d'; }
+.codicon-comment-draft:before { content: '\ec0e'; }
+.codicon-dialog-error:before { content: '\ea87'; }
+.codicon-dialog-warning:before { content: '\ea6c'; }
+.codicon-dialog-info:before { content: '\ea74'; }
+.codicon-dialog-close:before { content: '\ea76'; }
+.codicon-tree-item-expanded:before { content: '\eab4'; }
+.codicon-tree-filter-on-type-on:before { content: '\eb83'; }
+.codicon-tree-filter-on-type-off:before { content: '\eb85'; }
+.codicon-tree-filter-clear:before { content: '\ea76'; }
+.codicon-tree-item-loading:before { content: '\eb19'; }
+.codicon-menu-selection:before { content: '\eab2'; }
+.codicon-menu-submenu:before { content: '\eab6'; }
+.codicon-menubar-more:before { content: '\ea7c'; }
+.codicon-scrollbar-button-left:before { content: '\eb6f'; }
+.codicon-scrollbar-button-right:before { content: '\eb70'; }
+.codicon-scrollbar-button-up:before { content: '\eb71'; }
+.codicon-scrollbar-button-down:before { content: '\eb6e'; }
+.codicon-toolbar-more:before { content: '\ea7c'; }
+.codicon-quick-input-back:before { content: '\ea9b'; }
+.codicon-widget-close:before { content: '\ea76'; }
+.codicon-goto-previous-location:before { content: '\eaa1'; }
+.codicon-goto-next-location:before { content: '\ea9a'; }
+.codicon-diff-review-insert:before { content: '\ea60'; }
+.codicon-diff-review-remove:before { content: '\eb3b'; }
+.codicon-diff-review-close:before { content: '\ea76'; }
+.codicon-diff-insert:before { content: '\ea60'; }
+.codicon-diff-remove:before { content: '\eb3b'; }
+.codicon-marker-navigation-next:before { content: '\ea9a'; }
+.codicon-marker-navigation-previous:before { content: '\eaa1'; }
+.codicon-inline-suggestion-hints-next:before { content: '\eab6'; }
+.codicon-inline-suggestion-hints-previous:before { content: '\eab5'; }
+.codicon-find-selection:before { content: '\eb85'; }
+.codicon-find-collapsed:before { content: '\eab6'; }
+.codicon-find-expanded:before { content: '\eab4'; }
+.codicon-find-replace:before { content: '\eb3d'; }
+.codicon-find-replace-all:before { content: '\eb3c'; }
+.codicon-find-previous-match:before { content: '\eaa1'; }
+.codicon-find-next-match:before { content: '\ea9a'; }
+.codicon-folding-expanded:before { content: '\eab4'; }
+.codicon-folding-collapsed:before { content: '\eab6'; }
+.codicon-folding-manual-collapsed:before { content: '\eab6'; }
+.codicon-folding-manual-expanded:before { content: '\eab4'; }
+.codicon-suggest-more-info:before { content: '\eab6'; }
+.codicon-parameter-hints-next:before { content: '\eab4'; }
+.codicon-parameter-hints-previous:before { content: '\eab7'; }
+.codicon-extensions-warning-message:before { content: '\ea6c'; }
+.monaco-editor .inputarea.ime-input { background-color: #fffffe; }
+.monaco-editor .line-numbers.dimmed-line-number { color: rgba(35, 120, 147, 0.4); }
+.monaco-editor .view-overlays .current-line { border: 2px solid #eeeeee; }
+.monaco-editor .margin-view-overlays .current-line-margin { border: 2px solid #eeeeee; }
+.monaco-editor .bracket-indent-guide.lvl-0 { --guide-color: rgba(4, 49, 250, 0.3); --guide-color-active: #0431fa; }
+.monaco-editor .bracket-indent-guide.lvl-1 { --guide-color: rgba(49, 147, 49, 0.3); --guide-color-active: #319331; }
+.monaco-editor .bracket-indent-guide.lvl-2 { --guide-color: rgba(123, 56, 20, 0.3); --guide-color-active: #7b3814; }
+.monaco-editor .bracket-indent-guide.lvl-3 { --guide-color: rgba(4, 49, 250, 0.3); --guide-color-active: #0431fa; }
+.monaco-editor .bracket-indent-guide.lvl-4 { --guide-color: rgba(49, 147, 49, 0.3); --guide-color-active: #319331; }
+.monaco-editor .bracket-indent-guide.lvl-5 { --guide-color: rgba(123, 56, 20, 0.3); --guide-color-active: #7b3814; }
+.monaco-editor .bracket-indent-guide.lvl-6 { --guide-color: rgba(4, 49, 250, 0.3); --guide-color-active: #0431fa; }
+.monaco-editor .bracket-indent-guide.lvl-7 { --guide-color: rgba(49, 147, 49, 0.3); --guide-color-active: #319331; }
+.monaco-editor .bracket-indent-guide.lvl-8 { --guide-color: rgba(123, 56, 20, 0.3); --guide-color-active: #7b3814; }
+.monaco-editor .bracket-indent-guide.lvl-9 { --guide-color: rgba(4, 49, 250, 0.3); --guide-color-active: #0431fa; }
+.monaco-editor .bracket-indent-guide.lvl-10 { --guide-color: rgba(49, 147, 49, 0.3); --guide-color-active: #319331; }
+.monaco-editor .bracket-indent-guide.lvl-11 { --guide-color: rgba(123, 56, 20, 0.3); --guide-color-active: #7b3814; }
+.monaco-editor .bracket-indent-guide.lvl-12 { --guide-color: rgba(4, 49, 250, 0.3); --guide-color-active: #0431fa; }
+.monaco-editor .bracket-indent-guide.lvl-13 { --guide-color: rgba(49, 147, 49, 0.3); --guide-color-active: #319331; }
+.monaco-editor .bracket-indent-guide.lvl-14 { --guide-color: rgba(123, 56, 20, 0.3); --guide-color-active: #7b3814; }
+.monaco-editor .bracket-indent-guide.lvl-15 { --guide-color: rgba(4, 49, 250, 0.3); --guide-color-active: #0431fa; }
+.monaco-editor .bracket-indent-guide.lvl-16 { --guide-color: rgba(49, 147, 49, 0.3); --guide-color-active: #319331; }
+.monaco-editor .bracket-indent-guide.lvl-17 { --guide-color: rgba(123, 56, 20, 0.3); --guide-color-active: #7b3814; }
+.monaco-editor .bracket-indent-guide.lvl-18 { --guide-color: rgba(4, 49, 250, 0.3); --guide-color-active: #0431fa; }
+.monaco-editor .bracket-indent-guide.lvl-19 { --guide-color: rgba(49, 147, 49, 0.3); --guide-color-active: #319331; }
+.monaco-editor .bracket-indent-guide.lvl-20 { --guide-color: rgba(123, 56, 20, 0.3); --guide-color-active: #7b3814; }
+.monaco-editor .bracket-indent-guide.lvl-21 { --guide-color: rgba(4, 49, 250, 0.3); --guide-color-active: #0431fa; }
+.monaco-editor .bracket-indent-guide.lvl-22 { --guide-color: rgba(49, 147, 49, 0.3); --guide-color-active: #319331; }
+.monaco-editor .bracket-indent-guide.lvl-23 { --guide-color: rgba(123, 56, 20, 0.3); --guide-color-active: #7b3814; }
+.monaco-editor .bracket-indent-guide.lvl-24 { --guide-color: rgba(4, 49, 250, 0.3); --guide-color-active: #0431fa; }
+.monaco-editor .bracket-indent-guide.lvl-25 { --guide-color: rgba(49, 147, 49, 0.3); --guide-color-active: #319331; }
+.monaco-editor .bracket-indent-guide.lvl-26 { --guide-color: rgba(123, 56, 20, 0.3); --guide-color-active: #7b3814; }
+.monaco-editor .bracket-indent-guide.lvl-27 { --guide-color: rgba(4, 49, 250, 0.3); --guide-color-active: #0431fa; }
+.monaco-editor .bracket-indent-guide.lvl-28 { --guide-color: rgba(49, 147, 49, 0.3); --guide-color-active: #319331; }
+.monaco-editor .bracket-indent-guide.lvl-29 { --guide-color: rgba(123, 56, 20, 0.3); --guide-color-active: #7b3814; }
+.monaco-editor .vertical { box-shadow: 1px 0 0 0 var(--guide-color) inset; }
+.monaco-editor .horizontal-top { border-top: 1px solid var(--guide-color); }
+.monaco-editor .horizontal-bottom { border-bottom: 1px solid var(--guide-color); }
+.monaco-editor .vertical.indent-active { box-shadow: 1px 0 0 0 var(--guide-color-active) inset; }
+.monaco-editor .horizontal-top.indent-active { border-top: 1px solid var(--guide-color-active); }
+.monaco-editor .horizontal-bottom.indent-active { border-bottom: 1px solid var(--guide-color-active); }
+.monaco-editor .cursors-layer .cursor { background-color: #000000; border-color: #000000; color: #ffffff; }
+.monaco-editor .unexpected-closing-bracket { color: rgba(255, 18, 18, 0.8); }
+.monaco-editor .bracket-highlighting-0 { color: #0431fa; }
+.monaco-editor .bracket-highlighting-1 { color: #319331; }
+.monaco-editor .bracket-highlighting-2 { color: #7b3814; }
+.monaco-editor .bracket-highlighting-3 { color: #0431fa; }
+.monaco-editor .bracket-highlighting-4 { color: #319331; }
+.monaco-editor .bracket-highlighting-5 { color: #7b3814; }
+.monaco-editor .bracket-highlighting-6 { color: #0431fa; }
+.monaco-editor .bracket-highlighting-7 { color: #319331; }
+.monaco-editor .bracket-highlighting-8 { color: #7b3814; }
+.monaco-editor .bracket-highlighting-9 { color: #0431fa; }
+.monaco-editor .bracket-highlighting-10 { color: #319331; }
+.monaco-editor .bracket-highlighting-11 { color: #7b3814; }
+.monaco-editor .bracket-highlighting-12 { color: #0431fa; }
+.monaco-editor .bracket-highlighting-13 { color: #319331; }
+.monaco-editor .bracket-highlighting-14 { color: #7b3814; }
+.monaco-editor .bracket-highlighting-15 { color: #0431fa; }
+.monaco-editor .bracket-highlighting-16 { color: #319331; }
+.monaco-editor .bracket-highlighting-17 { color: #7b3814; }
+.monaco-editor .bracket-highlighting-18 { color: #0431fa; }
+.monaco-editor .bracket-highlighting-19 { color: #319331; }
+.monaco-editor .bracket-highlighting-20 { color: #7b3814; }
+.monaco-editor .bracket-highlighting-21 { color: #0431fa; }
+.monaco-editor .bracket-highlighting-22 { color: #319331; }
+.monaco-editor .bracket-highlighting-23 { color: #7b3814; }
+.monaco-editor .bracket-highlighting-24 { color: #0431fa; }
+.monaco-editor .bracket-highlighting-25 { color: #319331; }
+.monaco-editor .bracket-highlighting-26 { color: #7b3814; }
+.monaco-editor .bracket-highlighting-27 { color: #0431fa; }
+.monaco-editor .bracket-highlighting-28 { color: #319331; }
+.monaco-editor .bracket-highlighting-29 { color: #7b3814; }
+.monaco-editor .squiggly-error { background: url("data:image/svg+xml,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%206%203'%20enable-background%3D'new%200%200%206%203'%20height%3D'3'%20width%3D'6'%3E%3Cg%20fill%3D'%23e51400'%3E%3Cpolygon%20points%3D'5.5%2C0%202.5%2C3%201.1%2C3%204.1%2C0'%2F%3E%3Cpolygon%20points%3D'4%2C0%206%2C2%206%2C0.6%205.4%2C0'%2F%3E%3Cpolygon%20points%3D'0%2C2%201%2C3%202.4%2C3%200%2C0.6'%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E") repeat-x bottom left; }
+.monaco-editor .squiggly-warning { background: url("data:image/svg+xml,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%206%203'%20enable-background%3D'new%200%200%206%203'%20height%3D'3'%20width%3D'6'%3E%3Cg%20fill%3D'%23bf8803'%3E%3Cpolygon%20points%3D'5.5%2C0%202.5%2C3%201.1%2C3%204.1%2C0'%2F%3E%3Cpolygon%20points%3D'4%2C0%206%2C2%206%2C0.6%205.4%2C0'%2F%3E%3Cpolygon%20points%3D'0%2C2%201%2C3%202.4%2C3%200%2C0.6'%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E") repeat-x bottom left; }
+.monaco-editor .squiggly-info { background: url("data:image/svg+xml,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%206%203'%20enable-background%3D'new%200%200%206%203'%20height%3D'3'%20width%3D'6'%3E%3Cg%20fill%3D'%231a85ff'%3E%3Cpolygon%20points%3D'5.5%2C0%202.5%2C3%201.1%2C3%204.1%2C0'%2F%3E%3Cpolygon%20points%3D'4%2C0%206%2C2%206%2C0.6%205.4%2C0'%2F%3E%3Cpolygon%20points%3D'0%2C2%201%2C3%202.4%2C3%200%2C0.6'%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E") repeat-x bottom left; }
+.monaco-editor .squiggly-hint { background: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20height%3D%223%22%20width%3D%2212%22%3E%3Cg%20fill%3D%22%236c6c6c%22%3E%3Ccircle%20cx%3D%221%22%20cy%3D%221%22%20r%3D%221%22%2F%3E%3Ccircle%20cx%3D%225%22%20cy%3D%221%22%20r%3D%221%22%2F%3E%3Ccircle%20cx%3D%229%22%20cy%3D%221%22%20r%3D%221%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E") no-repeat bottom left; }
+.monaco-editor.showUnused .squiggly-inline-unnecessary { opacity: 0.467; }
+
+	.monaco-editor .diagonal-fill {
+		background-image: linear-gradient(
+			-45deg,
+			rgba(34, 34, 34, 0.2) 12.5%,
+			#0000 12.5%, #0000 50%,
+			rgba(34, 34, 34, 0.2) 50%, rgba(34, 34, 34, 0.2) 62.5%,
+			#0000 62.5%, #0000 100%
+		);
+		background-size: 8px 8px;
+	}
+	
+.monaco-editor .monaco-hover .hover-row:not(:first-child):not(:empty) { border-top: 1px solid rgba(200, 200, 200, 0.5); }
+.monaco-editor .monaco-hover hr { border-top: 1px solid rgba(200, 200, 200, 0.5); }
+.monaco-editor .monaco-hover hr { border-bottom: 0px solid rgba(200, 200, 200, 0.5); }
+.monaco-editor .findMatch { background-color: rgba(234, 92, 0, 0.33); }
+.monaco-editor .currentFindMatch { background-color: #a8ac94; }
+.monaco-editor .findScope { background-color: rgba(180, 180, 180, 0.3); }
+.monaco-editor .find-widget { background-color: #f3f3f3; }
+.monaco-editor .find-widget { box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.16); }
+.monaco-editor .find-widget { color: #616161; }
+.monaco-editor .find-widget.no-results .matchesCount { color: #a1260d; }
+.monaco-editor .find-widget .monaco-sash { background-color: #c8c8c8; }
+
+		.monaco-editor .find-widget .button:not(.disabled):hover,
+		.monaco-editor .find-widget .codicon-find-selection:hover {
+			background-color: rgba(184, 184, 184, 0.31) !important;
+		}
+	
+.monaco-editor .find-widget .monaco-inputbox.synthetic-focus { outline-color: #0090f1; }
+.monaco-editor .selectionHighlight { background-color: rgba(173, 214, 255, 0.15); }
+.monaco-editor { --vscode-foreground: #616161;
+--vscode-disabledForeground: rgba(97, 97, 97, 0.5);
+--vscode-errorForeground: #a1260d;
+--vscode-descriptionForeground: #717171;
+--vscode-icon-foreground: #424242;
+--vscode-focusBorder: #0090f1;
+--vscode-textSeparator-foreground: rgba(0, 0, 0, 0.18);
+--vscode-textLink-foreground: #006ab1;
+--vscode-textLink-activeForeground: #006ab1;
+--vscode-textPreformat-foreground: #a31515;
+--vscode-textBlockQuote-background: rgba(127, 127, 127, 0.1);
+--vscode-textBlockQuote-border: rgba(0, 122, 204, 0.5);
+--vscode-textCodeBlock-background: rgba(220, 220, 220, 0.4);
+--vscode-widget-shadow: rgba(0, 0, 0, 0.16);
+--vscode-input-background: #ffffff;
+--vscode-input-foreground: #616161;
+--vscode-inputOption-activeBorder: #007acc;
+--vscode-inputOption-hoverBackground: rgba(184, 184, 184, 0.31);
+--vscode-inputOption-activeBackground: rgba(0, 144, 241, 0.2);
+--vscode-inputOption-activeForeground: #000000;
+--vscode-input-placeholderForeground: rgba(97, 97, 97, 0.5);
+--vscode-inputValidation-infoBackground: #d6ecf2;
+--vscode-inputValidation-infoBorder: #007acc;
+--vscode-inputValidation-warningBackground: #f6f5d2;
+--vscode-inputValidation-warningBorder: #b89500;
+--vscode-inputValidation-errorBackground: #f2dede;
+--vscode-inputValidation-errorBorder: #be1100;
+--vscode-dropdown-background: #ffffff;
+--vscode-dropdown-foreground: #616161;
+--vscode-dropdown-border: #cecece;
+--vscode-button-foreground: #ffffff;
+--vscode-button-separator: rgba(255, 255, 255, 0.4);
+--vscode-button-background: #007acc;
+--vscode-button-hoverBackground: #0062a3;
+--vscode-button-secondaryForeground: #ffffff;
+--vscode-button-secondaryBackground: #5f6a79;
+--vscode-button-secondaryHoverBackground: #4c5561;
+--vscode-badge-background: #c4c4c4;
+--vscode-badge-foreground: #333333;
+--vscode-scrollbar-shadow: #dddddd;
+--vscode-scrollbarSlider-background: rgba(100, 100, 100, 0.4);
+--vscode-scrollbarSlider-hoverBackground: rgba(100, 100, 100, 0.7);
+--vscode-scrollbarSlider-activeBackground: rgba(0, 0, 0, 0.6);
+--vscode-progressBar-background: #0e70c0;
+--vscode-editorError-foreground: #e51400;
+--vscode-editorWarning-foreground: #bf8803;
+--vscode-editorInfo-foreground: #1a85ff;
+--vscode-editorHint-foreground: #6c6c6c;
+--vscode-sash-hoverBorder: #0090f1;
+--vscode-editor-background: #fffffe;
+--vscode-editor-foreground: #000000;
+--vscode-editorStickyScroll-background: #fffffe;
+--vscode-editorStickyScrollHover-background: #f0f0f0;
+--vscode-editorWidget-background: #f3f3f3;
+--vscode-editorWidget-foreground: #616161;
+--vscode-editorWidget-border: #c8c8c8;
+--vscode-quickInput-background: #f3f3f3;
+--vscode-quickInput-foreground: #616161;
+--vscode-quickInputTitle-background: rgba(0, 0, 0, 0.06);
+--vscode-pickerGroup-foreground: #0066bf;
+--vscode-pickerGroup-border: #cccedb;
+--vscode-keybindingLabel-background: rgba(221, 221, 221, 0.4);
+--vscode-keybindingLabel-foreground: #555555;
+--vscode-keybindingLabel-border: rgba(204, 204, 204, 0.4);
+--vscode-keybindingLabel-bottomBorder: rgba(187, 187, 187, 0.4);
+--vscode-editor-selectionBackground: #add6ff;
+--vscode-editor-inactiveSelectionBackground: #e5ebf1;
+--vscode-editor-selectionHighlightBackground: rgba(173, 214, 255, 0.3);
+--vscode-editor-findMatchBackground: #a8ac94;
+--vscode-editor-findMatchHighlightBackground: rgba(234, 92, 0, 0.33);
+--vscode-editor-findRangeHighlightBackground: rgba(180, 180, 180, 0.3);
+--vscode-searchEditor-findMatchBackground: rgba(234, 92, 0, 0.22);
+--vscode-editor-hoverHighlightBackground: rgba(173, 214, 255, 0.15);
+--vscode-editorHoverWidget-background: #f3f3f3;
+--vscode-editorHoverWidget-foreground: #616161;
+--vscode-editorHoverWidget-border: #c8c8c8;
+--vscode-editorHoverWidget-statusBarBackground: #e7e7e7;
+--vscode-editorLink-activeForeground: #0000ff;
+--vscode-editorInlayHint-foreground: #333333;
+--vscode-editorInlayHint-background: rgba(196, 196, 196, 0.6);
+--vscode-editorInlayHint-typeForeground: #333333;
+--vscode-editorInlayHint-typeBackground: rgba(196, 196, 196, 0.6);
+--vscode-editorInlayHint-parameterForeground: #333333;
+--vscode-editorInlayHint-parameterBackground: rgba(196, 196, 196, 0.6);
+--vscode-editorLightBulb-foreground: #ddb100;
+--vscode-editorLightBulbAutoFix-foreground: #007acc;
+--vscode-diffEditor-insertedTextBackground: rgba(156, 204, 44, 0.25);
+--vscode-diffEditor-removedTextBackground: rgba(255, 0, 0, 0.2);
+--vscode-diffEditor-insertedLineBackground: rgba(155, 185, 85, 0.2);
+--vscode-diffEditor-removedLineBackground: rgba(255, 0, 0, 0.2);
+--vscode-diffEditor-diagonalFill: rgba(34, 34, 34, 0.2);
+--vscode-list-focusOutline: #0090f1;
+--vscode-list-activeSelectionBackground: #0060c0;
+--vscode-list-activeSelectionForeground: #ffffff;
+--vscode-list-inactiveSelectionBackground: #e4e6f1;
+--vscode-list-hoverBackground: #f0f0f0;
+--vscode-list-dropBackground: #d6ebff;
+--vscode-list-highlightForeground: #0066bf;
+--vscode-list-focusHighlightForeground: #bbe7ff;
+--vscode-list-invalidItemForeground: #b89500;
+--vscode-list-errorForeground: #b01011;
+--vscode-list-warningForeground: #855f00;
+--vscode-listFilterWidget-background: #f3f3f3;
+--vscode-listFilterWidget-outline: rgba(0, 0, 0, 0);
+--vscode-listFilterWidget-noMatchesOutline: #be1100;
+--vscode-listFilterWidget-shadow: rgba(0, 0, 0, 0.16);
+--vscode-list-filterMatchBackground: rgba(234, 92, 0, 0.33);
+--vscode-tree-indentGuidesStroke: #a9a9a9;
+--vscode-tree-inactiveIndentGuidesStroke: rgba(169, 169, 169, 0.4);
+--vscode-tree-tableColumnsBorder: rgba(97, 97, 97, 0.13);
+--vscode-tree-tableOddRowsBackground: rgba(97, 97, 97, 0.04);
+--vscode-list-deemphasizedForeground: #8e8e90;
+--vscode-checkbox-background: #ffffff;
+--vscode-checkbox-selectBackground: #f3f3f3;
+--vscode-checkbox-foreground: #616161;
+--vscode-checkbox-border: #cecece;
+--vscode-checkbox-selectBorder: #f3f3f3;
+--vscode-quickInputList-focusForeground: #ffffff;
+--vscode-quickInputList-focusBackground: #0060c0;
+--vscode-menu-foreground: #616161;
+--vscode-menu-background: #ffffff;
+--vscode-menu-selectionForeground: #ffffff;
+--vscode-menu-selectionBackground: #0060c0;
+--vscode-menu-separatorBackground: #d4d4d4;
+--vscode-toolbar-hoverBackground: rgba(184, 184, 184, 0.31);
+--vscode-toolbar-activeBackground: rgba(166, 166, 166, 0.31);
+--vscode-editor-snippetTabstopHighlightBackground: rgba(10, 50, 100, 0.2);
+--vscode-editor-snippetFinalTabstopHighlightBorder: rgba(10, 50, 100, 0.5);
+--vscode-breadcrumb-foreground: rgba(97, 97, 97, 0.8);
+--vscode-breadcrumb-background: #fffffe;
+--vscode-breadcrumb-focusForeground: #4e4e4e;
+--vscode-breadcrumb-activeSelectionForeground: #4e4e4e;
+--vscode-breadcrumbPicker-background: #f3f3f3;
+--vscode-merge-currentHeaderBackground: rgba(64, 200, 174, 0.5);
+--vscode-merge-currentContentBackground: rgba(64, 200, 174, 0.2);
+--vscode-merge-incomingHeaderBackground: rgba(64, 166, 255, 0.5);
+--vscode-merge-incomingContentBackground: rgba(64, 166, 255, 0.2);
+--vscode-merge-commonHeaderBackground: rgba(96, 96, 96, 0.4);
+--vscode-merge-commonContentBackground: rgba(96, 96, 96, 0.16);
+--vscode-editorOverviewRuler-currentContentForeground: rgba(64, 200, 174, 0.5);
+--vscode-editorOverviewRuler-incomingContentForeground: rgba(64, 166, 255, 0.5);
+--vscode-editorOverviewRuler-commonContentForeground: rgba(96, 96, 96, 0.4);
+--vscode-editorOverviewRuler-findMatchForeground: rgba(209, 134, 22, 0.49);
+--vscode-editorOverviewRuler-selectionHighlightForeground: rgba(160, 160, 160, 0.8);
+--vscode-minimap-findMatchHighlight: #d18616;
+--vscode-minimap-selectionOccurrenceHighlight: #c9c9c9;
+--vscode-minimap-selectionHighlight: #add6ff;
+--vscode-minimap-errorHighlight: rgba(255, 18, 18, 0.7);
+--vscode-minimap-warningHighlight: #bf8803;
+--vscode-minimap-foregroundOpacity: #000000;
+--vscode-minimapSlider-background: rgba(100, 100, 100, 0.2);
+--vscode-minimapSlider-hoverBackground: rgba(100, 100, 100, 0.35);
+--vscode-minimapSlider-activeBackground: rgba(0, 0, 0, 0.3);
+--vscode-problemsErrorIcon-foreground: #e51400;
+--vscode-problemsWarningIcon-foreground: #bf8803;
+--vscode-problemsInfoIcon-foreground: #1a85ff;
+--vscode-charts-foreground: #616161;
+--vscode-charts-lines: rgba(97, 97, 97, 0.5);
+--vscode-charts-red: #e51400;
+--vscode-charts-blue: #1a85ff;
+--vscode-charts-yellow: #bf8803;
+--vscode-charts-orange: #d18616;
+--vscode-charts-green: #388a34;
+--vscode-charts-purple: #652d90;
+--vscode-editor-lineHighlightBorder: #eeeeee;
+--vscode-editor-rangeHighlightBackground: rgba(253, 255, 0, 0.2);
+--vscode-editor-symbolHighlightBackground: rgba(234, 92, 0, 0.33);
+--vscode-editorCursor-foreground: #000000;
+--vscode-editorWhitespace-foreground: rgba(51, 51, 51, 0.2);
+--vscode-editorIndentGuide-background: #d3d3d3;
+--vscode-editorIndentGuide-activeBackground: #939393;
+--vscode-editorLineNumber-foreground: #237893;
+--vscode-editorActiveLineNumber-foreground: #0b216f;
+--vscode-editorLineNumber-activeForeground: #0b216f;
+--vscode-editorRuler-foreground: #d3d3d3;
+--vscode-editorCodeLens-foreground: #919191;
+--vscode-editorBracketMatch-background: rgba(0, 100, 0, 0.1);
+--vscode-editorBracketMatch-border: #b9b9b9;
+--vscode-editorOverviewRuler-border: rgba(127, 127, 127, 0.3);
+--vscode-editorGutter-background: #fffffe;
+--vscode-editorUnnecessaryCode-opacity: rgba(0, 0, 0, 0.47);
+--vscode-editorGhostText-foreground: rgba(0, 0, 0, 0.47);
+--vscode-editorOverviewRuler-rangeHighlightForeground: rgba(0, 122, 204, 0.6);
+--vscode-editorOverviewRuler-errorForeground: rgba(255, 18, 18, 0.7);
+--vscode-editorOverviewRuler-warningForeground: #bf8803;
+--vscode-editorOverviewRuler-infoForeground: #1a85ff;
+--vscode-editorBracketHighlight-foreground1: #0431fa;
+--vscode-editorBracketHighlight-foreground2: #319331;
+--vscode-editorBracketHighlight-foreground3: #7b3814;
+--vscode-editorBracketHighlight-foreground4: rgba(0, 0, 0, 0);
+--vscode-editorBracketHighlight-foreground5: rgba(0, 0, 0, 0);
+--vscode-editorBracketHighlight-foreground6: rgba(0, 0, 0, 0);
+--vscode-editorBracketHighlight-unexpectedBracket-foreground: rgba(255, 18, 18, 0.8);
+--vscode-editorBracketPairGuide-background1: rgba(0, 0, 0, 0);
+--vscode-editorBracketPairGuide-background2: rgba(0, 0, 0, 0);
+--vscode-editorBracketPairGuide-background3: rgba(0, 0, 0, 0);
+--vscode-editorBracketPairGuide-background4: rgba(0, 0, 0, 0);
+--vscode-editorBracketPairGuide-background5: rgba(0, 0, 0, 0);
+--vscode-editorBracketPairGuide-background6: rgba(0, 0, 0, 0);
+--vscode-editorBracketPairGuide-activeBackground1: rgba(0, 0, 0, 0);
+--vscode-editorBracketPairGuide-activeBackground2: rgba(0, 0, 0, 0);
+--vscode-editorBracketPairGuide-activeBackground3: rgba(0, 0, 0, 0);
+--vscode-editorBracketPairGuide-activeBackground4: rgba(0, 0, 0, 0);
+--vscode-editorBracketPairGuide-activeBackground5: rgba(0, 0, 0, 0);
+--vscode-editorBracketPairGuide-activeBackground6: rgba(0, 0, 0, 0);
+--vscode-editorUnicodeHighlight-border: #cea33d;
+--vscode-editorUnicodeHighlight-background: rgba(206, 163, 61, 0.08);
+--vscode-editorOverviewRuler-bracketMatchForeground: #a0a0a0;
+--vscode-symbolIcon-arrayForeground: #616161;
+--vscode-symbolIcon-booleanForeground: #616161;
+--vscode-symbolIcon-classForeground: #d67e00;
+--vscode-symbolIcon-colorForeground: #616161;
+--vscode-symbolIcon-constantForeground: #616161;
+--vscode-symbolIcon-constructorForeground: #652d90;
+--vscode-symbolIcon-enumeratorForeground: #d67e00;
+--vscode-symbolIcon-enumeratorMemberForeground: #007acc;
+--vscode-symbolIcon-eventForeground: #d67e00;
+--vscode-symbolIcon-fieldForeground: #007acc;
+--vscode-symbolIcon-fileForeground: #616161;
+--vscode-symbolIcon-folderForeground: #616161;
+--vscode-symbolIcon-functionForeground: #652d90;
+--vscode-symbolIcon-interfaceForeground: #007acc;
+--vscode-symbolIcon-keyForeground: #616161;
+--vscode-symbolIcon-keywordForeground: #616161;
+--vscode-symbolIcon-methodForeground: #652d90;
+--vscode-symbolIcon-moduleForeground: #616161;
+--vscode-symbolIcon-namespaceForeground: #616161;
+--vscode-symbolIcon-nullForeground: #616161;
+--vscode-symbolIcon-numberForeground: #616161;
+--vscode-symbolIcon-objectForeground: #616161;
+--vscode-symbolIcon-operatorForeground: #616161;
+--vscode-symbolIcon-packageForeground: #616161;
+--vscode-symbolIcon-propertyForeground: #616161;
+--vscode-symbolIcon-referenceForeground: #616161;
+--vscode-symbolIcon-snippetForeground: #616161;
+--vscode-symbolIcon-stringForeground: #616161;
+--vscode-symbolIcon-structForeground: #616161;
+--vscode-symbolIcon-textForeground: #616161;
+--vscode-symbolIcon-typeParameterForeground: #616161;
+--vscode-symbolIcon-unitForeground: #616161;
+--vscode-symbolIcon-variableForeground: #007acc;
+--vscode-peekViewTitle-background: rgba(26, 133, 255, 0.1);
+--vscode-peekViewTitleLabel-foreground: #000000;
+--vscode-peekViewTitleDescription-foreground: #616161;
+--vscode-peekView-border: #1a85ff;
+--vscode-peekViewResult-background: #f3f3f3;
+--vscode-peekViewResult-lineForeground: #646465;
+--vscode-peekViewResult-fileForeground: #1e1e1e;
+--vscode-peekViewResult-selectionBackground: rgba(51, 153, 255, 0.2);
+--vscode-peekViewResult-selectionForeground: #6c6c6c;
+--vscode-peekViewEditor-background: #f2f8fc;
+--vscode-peekViewEditorGutter-background: #f2f8fc;
+--vscode-peekViewEditorStickyScroll-background: #f2f8fc;
+--vscode-peekViewResult-matchHighlightBackground: rgba(234, 92, 0, 0.3);
+--vscode-peekViewEditor-matchHighlightBackground: rgba(245, 216, 2, 0.87);
+--vscode-editorMarkerNavigationError-background: #e51400;
+--vscode-editorMarkerNavigationError-headerBackground: rgba(229, 20, 0, 0.1);
+--vscode-editorMarkerNavigationWarning-background: #bf8803;
+--vscode-editorMarkerNavigationWarning-headerBackground: rgba(191, 136, 3, 0.1);
+--vscode-editorMarkerNavigationInfo-background: #1a85ff;
+--vscode-editorMarkerNavigationInfo-headerBackground: rgba(26, 133, 255, 0.1);
+--vscode-editorMarkerNavigation-background: #fffffe;
+--vscode-editor-foldBackground: rgba(173, 214, 255, 0.3);
+--vscode-editorGutter-foldingControlForeground: #424242;
+--vscode-editorSuggestWidget-background: #f3f3f3;
+--vscode-editorSuggestWidget-border: #c8c8c8;
+--vscode-editorSuggestWidget-foreground: #000000;
+--vscode-editorSuggestWidget-selectedForeground: #ffffff;
+--vscode-editorSuggestWidget-selectedBackground: #0060c0;
+--vscode-editorSuggestWidget-highlightForeground: #0066bf;
+--vscode-editorSuggestWidget-focusHighlightForeground: #bbe7ff;
+--vscode-editorSuggestWidgetStatus-foreground: rgba(0, 0, 0, 0.5);
+--vscode-editor-linkedEditingBackground: rgba(255, 0, 0, 0.3);
+--vscode-editor-wordHighlightBackground: rgba(87, 87, 87, 0.25);
+--vscode-editor-wordHighlightStrongBackground: rgba(14, 99, 156, 0.25);
+--vscode-editor-wordHighlightTextBackground: rgba(87, 87, 87, 0.25);
+--vscode-editorOverviewRuler-wordHighlightForeground: rgba(160, 160, 160, 0.8);
+--vscode-editorOverviewRuler-wordHighlightStrongForeground: rgba(192, 160, 192, 0.8);
+--vscode-editorOverviewRuler-wordHighlightTextForeground: rgba(160, 160, 160, 0.8);
+--vscode-editorHoverWidget-highlightForeground: #0066bf; }
+
+.mtk1 { color: #000000; }
+.mtk2 { color: #fffffe; }
+.mtk3 { color: #808080; }
+.mtk4 { color: #ff0000; }
+.mtk5 { color: #0451a5; }
+.mtk6 { color: #0000ff; }
+.mtk7 { color: #098658; }
+.mtk8 { color: #008000; }
+.mtk9 { color: #dd0000; }
+.mtk10 { color: #383838; }
+.mtk11 { color: #cd3131; }
+.mtk12 { color: #863b00; }
+.mtk13 { color: #af00db; }
+.mtk14 { color: #800000; }
+.mtk15 { color: #e00000; }
+.mtk16 { color: #3030c0; }
+.mtk17 { color: #666666; }
+.mtk18 { color: #778899; }
+.mtk19 { color: #c700c7; }
+.mtk20 { color: #a31515; }
+.mtk21 { color: #4f76ac; }
+.mtk22 { color: #008080; }
+.mtk23 { color: #001188; }
+.mtk24 { color: #4864aa; }
+.mtki { font-style: italic; }
+.mtkb { font-weight: bold; }
+.mtku { text-decoration: underline; text-underline-position: under; }
+.mtks { text-decoration: line-through; }
+.mtks.mtku { text-decoration: underline line-through; text-underline-position: under; }</style><link rel="modulepreload" as="script" crossorigin="" href="https://app2.algobash.com/assets/javascript-06e74243.js"><link rel="modulepreload" as="script" crossorigin="" href="https://app2.algobash.com/assets/typescript-e72325b1.js"><link rel="modulepreload" as="script" crossorigin="" href="./IT Paragon Programming Test Basic - Front-End - Batch Aug 2023 - Test Pemrograman Dasar Level 1_files/index-41b43ac4.js"><link rel="modulepreload" as="script" crossorigin="" href="https://app2.algobash.com/assets/tsMode-8867f052.js"></head>
+
+<body cz-shortcut-listen="true" class="">
+  <div id="root"><div class="relative flex flex-col min-h-screen bg-slate-50 dark:bg-gray-900/95 z-0"><div class="w-full bg-white dark:bg-gray-900 dark:border-gray-800"><div class="px-2 pb-1 mx-auto flex justify-between items-center"><div class="flex justify-between items-center gap-4"><a class="flex justify-between items-center shrink-0 bg-sky-200 dark:bg-sky-500 py-1 pl-1 pr-3 rounded-full" href="https://app2.algobash.com/"><img class="w-auto h-10" src="./IT Paragon Programming Test Basic - Front-End - Batch Aug 2023 - Test Pemrograman Dasar Level 1_files/rec-logo.png" alt="Algobash Recruiter"><p class="mx-2 text-2xl text-sky-600">Talents</p></a><div class="hidden lg:flex justify-between items-center gap-2"><a class="flex justify-between items-center py-4 px-4 hover:bg-gray-50 rounded-b-lg  border-transparent text-gray-600 dark:text-gray-200 dark:hover:text-gray-100 dark:hover:bg-slate-800 " href="https://app2.algobash.com/"><p class="ml-1 font-medium">Assessments</p></a><a class="flex justify-between items-center py-4 px-4 hover:bg-gray-50 rounded-b-lg  border-transparent text-gray-600 dark:text-gray-200 dark:hover:text-gray-100 dark:hover:bg-slate-800 " href="https://app2.algobash.com/course"><p class="ml-1 font-medium">Courses</p></a></div></div><div class="flex justify-between items-center"><div class="flex justify-between items-center"><button class="py-2 px-2 text-gray-600 hover:text-gray-700 dark:text-gray-200 dark:hover:text-gray-500" type="button"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-5 h-5"><path stroke-linecap="round" stroke-linejoin="round" d="M18 12H6"></path></svg></button><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20"><path fill="none" d="M0 0h24v24H0z"></path><path d="M11.246 15H4.754l-2 5H.6L7 4h2l6.4 16h-2.154l-2-5zm-.8-2L8 6.885 5.554 13h4.892zM21 12.535V12h2v8h-2v-.535a4 4 0 1 1 0-6.93zM19 18a2 2 0 1 0 0-4 2 2 0 0 0 0 4z" fill="#646464"></path></svg><button class="py-2 px-2 text-gray-600 hover:text-gray-700 dark:text-gray-200 dark:hover:text-gray-500" type="button"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-5 h-5"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m6-6H6"></path></svg></button></div><button type="button" class="py-2 px-2 text-gray-600 hover:text-gray-700 dark:text-gray-200 dark:hover:text-gray-50"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-5 h-5"><path stroke-linecap="round" stroke-linejoin="round" d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-9 5.25h.008v.008H12v-.008z"></path></svg></button><a class="hidden md:block py-2 px-2 text-gray-600 hover:text-gray-700 dark:text-gray-200 dark:hover:text-gray-50" href="https://faq.algobash.com/docs-category/app/" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="20" height="20" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M11.25 11.25l.041-.02a.75.75 0 011.063.852l-.708 2.836a.75.75 0 001.063.853l.041-.021M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-9-3.75h.008v.008H12V8.25z"></path></svg></a><button class="hidden md:block py-2 px-2 text-gray-600 hover:text-gray-700 dark:text-gray-200 dark:hover:text-gray-50" type="button"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="20" height="20" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M21.752 15.002A9.718 9.718 0 0118 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 003 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 009.002-5.998z"></path></svg></button><div class="relative"><button type="button" class="hidden md:flex items-center justify-between py-2 px-2 text-gray-600 hover:text-gray-700  dark:text-gray-200 dark:hover:text-gray-50 disabled:bg-gray-200 dark:disabled:bg-gray-700 group aria-disabled:border-red-400 dark:aria-disabled:border-red-500" aria-expanded="false" aria-disabled="false"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" height="20" width="20" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M12 21a9.004 9.004 0 008.716-6.747M12 21a9.004 9.004 0 01-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 017.843 4.582M12 3a8.997 8.997 0 00-7.843 4.582m15.686 0A11.953 11.953 0 0112 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0121 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0112 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 013 12c0-1.605.42-3.113 1.157-4.418"></path></svg><p class="w-[20px] uppercase text-sm font-medium px-1">en</p><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" height="18" width="18" fill="currentColor" aria-hidden="true" stroke-width="1.5" class="ml-1"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg></button><div class="absolute z-20 rounded bg-white dark:bg-gray-800 border border-gray-300 dark:border-gray-600 shadow-xl max-h-[50vh] overflow-auto whitespace-nowrap" hidden="" style="left: 1345px; top: 96px;"><button type="button" class="text-left !pl-3 text-sm font-medium w-full block px-6 py-3 cursor-pointer text-gray-800 dark:text-gray-100 enabled:hover:bg-gray-100 dark:enabled:hover:bg-gray-900 dark:enabled:hover:text-white text-left text-sm">English</button><button type="button" class="text-left !pl-3 text-sm font-medium w-full block px-6 py-3 cursor-pointer text-gray-800 dark:text-gray-100 enabled:hover:bg-gray-100 dark:enabled:hover:bg-gray-900 dark:enabled:hover:text-white text-left text-sm">Indonesia</button></div><p class="text-sm text-red-500 mt-2" hidden=""></p></div><div class="relative"><button type="button" class="hidden md:block px-2 py-3 disabled:bg-gray-200 dark:disabled:bg-gray-700 group aria-disabled:border-red-400 dark:aria-disabled:border-red-500" aria-expanded="false" aria-disabled="false"><img class="object-cover w-8 h-8 rounded-full shrink-0" src="./IT Paragon Programming Test Basic - Front-End - Batch Aug 2023 - Test Pemrograman Dasar Level 1_files/unnamed.jpg" alt="Profile"></button><div class="absolute z-20 rounded bg-white dark:bg-gray-800 border border-gray-300 dark:border-gray-600 shadow-xl max-h-[50vh] overflow-auto whitespace-nowrap" hidden="" style="left: 1398px; top: 66px;"><a class="w-full block px-6 py-3 cursor-pointer text-gray-800 dark:text-gray-100 hover:bg-gray-100 dark:hover:bg-gray-900 dark:hover:text-white text-left" href="https://app2.algobash.com/profile"><div class="text-left"><p class="font-semibold">FrickenFrak GG</p><p class="text-sm">frickenfrakgg@gmail.com</p><p class="border rounded py-1 px-3 w-fit mt-1 text-sm font-medium">Manage Profile</p></div></a><button type="button" class="w-full block px-6 py-3 cursor-pointer text-gray-800 dark:text-gray-100 enabled:hover:bg-gray-100 dark:enabled:hover:bg-gray-900 dark:enabled:hover:text-white text-left text-sm"><div class="text-left text-blue-500"><p class="font-medium">Log Out</p></div></button></div><p class="text-sm text-red-500 mt-2" hidden=""></p></div><button class="lg:hidden py-4 px-2 text-gray-500 hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-200"><svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg></button></div></div><div class="absolute w-full z-10"></div></div><div><div><div class="flex flex-col min-h-test w-full bg-white dark:bg-gray-900"><div class="relative w-full px-2 py-2 mx-auto flex flex-col md:flex-row justify-between md:items-center bg-slate-50 dark:bg-slate-800 dark:border-gray-800 border-b border-gray-200 scroll-round gap-2"><div class="flex justify-between items-center space-x-2 "><div class="xl:w-[250px] h-10 px-4 flex justify-between items-center rounded dark:border-gray-600 border-2 border-gray-150 space-x-2" title="Test Pemrograman Dasar Level 1"><p class="font-medium text-lg dark:text-white line-clamp-1 text-ellipsis">Test Pemrograman Dasar Level 1</p></div><div class="h-10 px-3 text-lg text-white font-medium flex items-center justify-center rounded bg-emerald-600">01:41:05</div><button type="button" class="text-md bg-rose-600 text-white font-medium py-2 px-4 rounded md:hidden"><span class="hidden lg:block">End Test</span><span class="lg:hidden">Finish</span></button><button type="button" hidden="" class="text-md bg-blue-600 text-white font-medium py-2 px-4 rounded md:hidden"><span class="hidden lg:block">Finish Module</span><span class="lg:hidden">Finish</span></button></div><div class="md:flex grid gap-2 grid-cols-[auto_minmax(0,1fr)_minmax(0,1fr)]"><div class="relative xl:hidden"><button type="button" class="flex h-10 px-4 justify-between items-center rounded dark:border-gray-600 border-2 border-gray-150 space-x-2 whitespace-nowrap w-full disabled:bg-gray-200 dark:disabled:bg-gray-700 group aria-disabled:border-red-400 dark:aria-disabled:border-red-500" aria-expanded="false" aria-disabled="false"><p class="font-medium text-md dark:text-white truncate"><span class="hidden md:block">Question 5</span><span class="md:hidden">Qs. 5</span></p><svg fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="shrink-0 dark:text-white w-4 h-4"><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5"></path></svg></button><div class="absolute z-20 rounded bg-white dark:bg-gray-800 border border-gray-300 dark:border-gray-600 shadow-xl max-h-[50vh] overflow-auto whitespace-nowrap min-w-full" hidden="" style="left: 0px; top: 10px;"><button type="button" class="text-left !px-4 w-full block px-6 py-3 cursor-pointer text-gray-800 dark:text-gray-100 enabled:hover:bg-gray-100 dark:enabled:hover:bg-gray-900 dark:enabled:hover:text-white text-left text-sm">Question 1</button><button type="button" class="text-left !px-4 w-full block px-6 py-3 cursor-pointer text-gray-800 dark:text-gray-100 enabled:hover:bg-gray-100 dark:enabled:hover:bg-gray-900 dark:enabled:hover:text-white text-left text-sm">Question 2</button><button type="button" class="text-left !px-4 w-full block px-6 py-3 cursor-pointer text-gray-800 dark:text-gray-100 enabled:hover:bg-gray-100 dark:enabled:hover:bg-gray-900 dark:enabled:hover:text-white text-left text-sm">Question 3</button><button type="button" class="text-left !px-4 w-full block px-6 py-3 cursor-pointer text-gray-800 dark:text-gray-100 enabled:hover:bg-gray-100 dark:enabled:hover:bg-gray-900 dark:enabled:hover:text-white text-left text-sm">Question 4</button><button type="button" class="text-left !px-4 w-full block px-6 py-3 cursor-pointer text-gray-800 dark:text-gray-100 enabled:hover:bg-gray-100 dark:enabled:hover:bg-gray-900 dark:enabled:hover:text-white text-left text-sm">Question 5</button><button type="button" class="text-left !px-4 w-full block px-6 py-3 cursor-pointer text-gray-800 dark:text-gray-100 enabled:hover:bg-gray-100 dark:enabled:hover:bg-gray-900 dark:enabled:hover:text-white text-left text-sm">Question 6</button></div><p class="text-sm text-red-500 mt-2" hidden=""></p></div><div class="relative"><button type="button" class="flex h-10 px-4 justify-between items-center rounded dark:border-gray-600 border-2 border-gray-150 space-x-2 whitespace-nowrap md:w-[125px] xl:w-auto w-full disabled:bg-gray-200 dark:disabled:bg-gray-700 group aria-disabled:border-red-400 dark:aria-disabled:border-red-500" aria-expanded="false" aria-disabled="false"><p class="font-medium text-md dark:text-white truncate">JavaScript (Node)</p><svg fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="shrink-0 dark:text-white w-4 h-4"><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5"></path></svg></button><div class="absolute z-20 rounded bg-white dark:bg-gray-800 border border-gray-300 dark:border-gray-600 shadow-xl max-h-[50vh] overflow-auto whitespace-nowrap min-w-full" hidden="" style="left: 1223.83px; top: 118px;"><button type="button" class="text-left !px-4 w-full block px-6 py-3 cursor-pointer text-gray-800 dark:text-gray-100 enabled:hover:bg-gray-100 dark:enabled:hover:bg-gray-900 dark:enabled:hover:text-white text-left text-sm">JavaScript (Node)</button><button type="button" class="text-left !px-4 w-full block px-6 py-3 cursor-pointer text-gray-800 dark:text-gray-100 enabled:hover:bg-gray-100 dark:enabled:hover:bg-gray-900 dark:enabled:hover:text-white text-left text-sm">TypeScript</button></div><p class="text-sm text-red-500 mt-2" hidden=""></p></div><div class="relative md:hidden"><button type="button" class="flex h-10 px-4 justify-between items-center rounded dark:border-gray-600 border-2 border-gray-150 space-x-2 whitespace-nowrap w-full disabled:bg-gray-200 dark:disabled:bg-gray-700 group aria-disabled:border-red-400 dark:aria-disabled:border-red-500" aria-expanded="false" aria-disabled="false"><p class="font-medium text-md dark:text-white truncate capitalize">Description</p><svg fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="shrink-0 dark:text-white w-4 h-4"><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5"></path></svg></button><div class="absolute z-20 rounded bg-white dark:bg-gray-800 border border-gray-300 dark:border-gray-600 shadow-xl max-h-[50vh] overflow-auto whitespace-nowrap min-w-full" hidden="" style="left: 0px; top: 10px;"><button type="button" class="text-left !px-4 capitalize w-full block px-6 py-3 cursor-pointer text-gray-800 dark:text-gray-100 enabled:hover:bg-gray-100 dark:enabled:hover:bg-gray-900 dark:enabled:hover:text-white text-left text-sm">Description</button><button type="button" class="text-left !px-4 capitalize w-full block px-6 py-3 cursor-pointer text-gray-800 dark:text-gray-100 enabled:hover:bg-gray-100 dark:enabled:hover:bg-gray-900 dark:enabled:hover:text-white text-left text-sm">code</button><button type="button" class="text-left !px-4 capitalize w-full block px-6 py-3 cursor-pointer text-gray-800 dark:text-gray-100 enabled:hover:bg-gray-100 dark:enabled:hover:bg-gray-900 dark:enabled:hover:text-white text-left text-sm">Test Case</button></div><p class="text-sm text-red-500 mt-2" hidden=""></p></div><button type="button" aria-hidden="false" class="w-full text-md bg-rose-600 text-white font-medium py-2 px-4 rounded hidden md:block aria-hidden:hidden whitespace-nowrap"><span class="hidden lg:block">End Test</span><span class="lg:hidden">Finish</span></button><button type="button" aria-hidden="true" class="w-full text-md bg-blue-600 text-white font-medium py-2 px-4 rounded hidden md:block aria-hidden:hidden whitespace-nowrap"><span class="hidden lg:block">Finish Module</span><span class="lg:hidden">Finish</span></button></div><div class="flex sm:hidden gap-2"><button type="button" class="h-10 px-2 rounded flex justify-center items-center flex-1 w-auto 
+                dark:bg-white text-gray-800 enabled:hover:bg-gray-200 enabled:font-medium border border-gray-300
+                disabled:text-gray-500 disabled:dark:bg-gray-900 disabled:dark:text-gray-400 disabled:cursor-not-allowed disabled:border-transparent">Previous</button><button type="button" class="h-10 px-2 rounded flex justify-center items-center flex-1 w-auto border border-lime-600 dark:border-lime-700
+                bg-lime-600 text-white hover:bg-lime-700 dark:hover:text-white enabled:font-medium
+                disabled:text-gray-500 disabled:dark:bg-gray-900 disabled:dark:text-gray-400 disabled:cursor-not-allowed disabled:border-transparent dark:disabled:border-transparent">Next</button></div><div aria-hidden="false" class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 hidden xl:block aria-hidden:hidden"><div class="flex justify-center items-center space-x-2"><button type="button" class="h-10 w-10 flex justify-center items-center rounded-sm
+                  bg-white dark:bg-gray-800 dark:text-gray-200 enabled:hover:bg-blue-50 enabled:dark:hover:bg-gray-700 enabled:dark:hover:text-white enabled:font-medium
+                  disabled:text-gray-500 disabled:cursor-not-allowed disabled:dark:bg-gray-900 disabled:dark:text-gray-400"><svg fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-4 h-4"><path stroke-linecap="round" stroke-linejoin="round" d="M18.75 19.5l-7.5-7.5 7.5-7.5m-6 15L5.25 12l7.5-7.5"></path></svg></button><button type="button" class="h-10 px-4 rounded-sm flex justify-center items-center flex-1 w-auto 
+                  bg-white text-gray-800 enabled:hover:bg-blue-50 dark:enabled:hover:bg-gray-300 enabled:font-medium
+                  disabled:text-gray-500 disabled:dark:bg-gray-900 disabled:dark:text-gray-400 disabled:cursor-not-allowed">Previous</button><button class="font-medium flex justify-center items-center h-10 w-10 bg-white rounded-sm dark:bg-gray-800 dark:text-gray-200 enabled:hover:bg-blue-100 dark:enabled:hover:bg-gray-700 dark:enabled:hover:text-white" type="button">1</button><button class="font-medium flex justify-center items-center h-10 w-10 bg-white rounded-sm dark:bg-gray-800 dark:text-gray-200 enabled:hover:bg-blue-100 dark:enabled:hover:bg-gray-700 dark:enabled:hover:text-white" type="button">2</button><button class="font-bold flex justify-center items-center h-10 w-10 bg-emerald-500 text-white rounded-sm enabled:hover:bg-emerald-600" type="button">3</button><button class="font-medium flex justify-center items-center h-10 w-10 bg-white rounded-sm dark:bg-gray-800 dark:text-gray-200 enabled:hover:bg-blue-100 dark:enabled:hover:bg-gray-700 dark:enabled:hover:text-white" type="button">4</button><button class="font-bold border-b-[7px] border-b-transparent border-t-[7px] border-t-blue-500 border-x-[20px] border-x-transparent flex justify-center items-center h-10 w-10 rounded-sm bg-white text-blue-700 enabled:hover:bg-blue-100 dark:enabled:hover:bg-slate-100 pointer-events-none" type="button" disabled="">5</button><button type="button" class="h-10 px-4 rounded-sm flex justify-center items-center flex-1 w-auto
+                bg-lime-600 text-white hover:bg-lime-700 dark:hover:text-white enabled:font-medium
+                disabled:text-gray-500 disabled:bg-transparent disabled:dark:bg-gray-900 disabled:dark:text-gray-400 disabled:cursor-not-allowed">Next</button><button type="button" class="h-10 w-10 flex justify-center items-center rounded-sm
+                    bg-white dark:bg-gray-800 dark:text-gray-200 enabled:font-medium enabled:hover:bg-blue-50 dark:enabled:hover:bg-gray-700 dark:enabled:hover:text-white
+                    disabled:text-gray-500 disabled:cursor-not-allowed disabled:dark:bg-gray-900 disabled:dark:text-gray-400"><svg fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-4 h-4"><path stroke-linecap="round" stroke-linejoin="round" d="M11.25 4.5l7.5 7.5-7.5 7.5m-6-15l7.5 7.5-7.5 7.5"></path></svg></button></div></div></div><div class="md:hidden flex-1 flex"><div class="w-full"><p class="py-2 px-3 mb-0.5 border-b-2 border-gray-200 dark:border-gray-800 text-gray-800 dark:text-white italic">Max Memory : <b>64 MB</b><br>Max Runtime : <b>1000 ms</b></p><div class="_rtp_1ilxz_1 line-numbers overflow-auto" style="font-size: 16px;"><p>Pak Ragon memiliki sebuah string , dari string yang dimiliki, Pak Ragon ingin mengetahui apakah string tersebut <em>Parentheses Siku</em> atau bukan. <em>Parentheses Siku </em>jika dia parentheses dan terdiri dari karakter <code>'['</code>&nbsp;and&nbsp;<code>']'</code>. Berikut adalah contoh membedakan <em>Parentheses Siku</em> atau bukan.</p>
+<pre>"[]"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=&gt;&nbsp;&nbsp;benar
+"][[]]["&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=&gt;&nbsp;&nbsp;salah
+"["&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=&gt;&nbsp;&nbsp;salah
+"[[[]][[[]]][[]]]"&nbsp;&nbsp;=&gt;&nbsp; benar<br>"(()())"&nbsp;&nbsp;        =&gt;&nbsp; salah<br><br></pre>
+<p>Bantulah Pak Ragon untuk menentukan string yang dia miliki <em>Parentheses Siku </em>atau bukan dengan membuat sebuah fungsi yang akan mengembalikan <code>benar</code> jika string tersebut <em>Parentheses Siku</em> dan <code>salah</code> jika fungsi tersebut bukan <em>Parentheses Siku.</em>&nbsp;</p>
+<h2>Contoh masukan</h2>
+<p>[[]]</p>
+<h2>Contoh keluaran</h2>
+<p>benar</p>
+<h2>Contoh masukan</h2>
+<p>][]]</p>
+<h2>Contoh keluaran</h2>
+<p>salah</p>
+<h2>Batasan</h2>
+<p><code>1 &lt;= panjang string &lt;= 10000</code></p></div></div><div hidden="" class="bg-white dark:bg-gray-900 dark:border-gray-800 border-t-2 border-gray-200 w-full"><div class="border-b-2 dark:border-gray-800 border-gray-200 p-2 px-3"><div class="flex gap-2"><button class="flex-1 dark:border-gray-600 border-2 border-gray-150 text-sm font-medium py-2 px-4 rounded flex items-center justify-center disabled:opacity-60 hover:opacity-80"><svg fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="dark:text-white w-4 h-4"><path stroke-linecap="round" stroke-linejoin="round" d="M5.25 5.653c0-.856.917-1.398 1.667-.986l11.54 6.348a1.125 1.125 0 010 1.971l-11.54 6.347a1.125 1.125 0 01-1.667-.985V5.653z"></path></svg><p class="font-medium text-sm dark:text-white ml-1">Run Test</p></button><button class="flex-1 dark:border-gray-600 border-2 border-gray-150 text-sm font-medium py-2 px-4 rounded flex items-center justify-center disabled:opacity-60 hover:opacity-80"><svg fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="dark:text-white w-4 h-4"><path stroke-linecap="round" stroke-linejoin="round" d="M5.25 5.653c0-.856.917-1.398 1.667-.986l11.54 6.348a1.125 1.125 0 010 1.971l-11.54 6.347a1.125 1.125 0 01-1.667-.985V5.653z"></path></svg><p class="font-medium text-sm dark:text-white ml-1">Submit Code</p></button></div></div><div class="p-3 space-y-4 overflow-auto"></div></div></div><div class="hidden md:flex h-test"><div class="dark:border-gray-800 border-r-2 border-gray-200 shrink-0" style="position: relative; width: 700px;"><div class="w-full h-full overflow-auto"><p class="py-2 px-3 mb-0.5 border-b-2 border-gray-200 dark:border-gray-800 text-gray-800 dark:text-white italic">Max Memory : <b>64 MB</b> , Max Runtime : <b>1000 ms</b></p><div class="_rtp_1ilxz_1 line-numbers" style="font-size: 16px;"><p>Pak Ragon memiliki sebuah string , dari string yang dimiliki, Pak Ragon ingin mengetahui apakah string tersebut <em>Parentheses Siku</em> atau bukan. <em>Parentheses Siku </em>jika dia parentheses dan terdiri dari karakter <code>'['</code>&nbsp;and&nbsp;<code>']'</code>. Berikut adalah contoh membedakan <em>Parentheses Siku</em> atau bukan.</p>
+<pre>"[]"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=&gt;&nbsp;&nbsp;benar
+"][[]]["&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=&gt;&nbsp;&nbsp;salah
+"["&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=&gt;&nbsp;&nbsp;salah
+"[[[]][[[]]][[]]]"&nbsp;&nbsp;=&gt;&nbsp; benar<br>"(()())"&nbsp;&nbsp;        =&gt;&nbsp; salah<br><br></pre>
+<p>Bantulah Pak Ragon untuk menentukan string yang dia miliki <em>Parentheses Siku </em>atau bukan dengan membuat sebuah fungsi yang akan mengembalikan <code>benar</code> jika string tersebut <em>Parentheses Siku</em> dan <code>salah</code> jika fungsi tersebut bukan <em>Parentheses Siku.</em>&nbsp;</p>
+<h2>Contoh masukan</h2>
+<p>[[]]</p>
+<h2>Contoh keluaran</h2>
+<p>benar</p>
+<h2>Contoh masukan</h2>
+<p>][]]</p>
+<h2>Contoh keluaran</h2>
+<p>salah</p>
+<h2>Batasan</h2>
+<p><code>1 &lt;= panjang string &lt;= 10000</code></p></div><div class="_resizer_15clo_1 _e_15clo_37" draggable="false"><div class="_handle_15clo_8 _coding_15clo_13" draggable="false"></div></div></div></div><div class="grow flex flex-col min-w-0"><div class="grow bg-white dark:bg-[#1e1e1e] aria-disabled:border-red-400 dark:aria-disabled:border-red-500" aria-disabled="false" style="height: 0px; --vscode-editorCodeLens-lineHeight: 18px; --vscode-editorCodeLens-fontSize: 12px; --vscode-editorCodeLens-fontFeatureSettings: &quot;liga&quot; off, &quot;calt&quot; off; --code-editorInlayHintsFontFamily: Menlo, Monaco, &#39;Courier New&#39;, monospace;" data-keybinding-context="1" data-mode-id="javascript"><div class="monaco-editor no-user-select mac  showUnused showDeprecated vs focused" role="code" data-uri="inmemory://model/1" style="width: 740px; height: 175px;"><div data-mprt="3" class="overflow-guard" style="width: 740px; height: 175px;"><div class="margin" role="presentation" aria-hidden="true" style="position: absolute; transform: translate3d(0px, 0px, 0px); contain: strict; top: 0px; height: 273px; width: 70px;"><div class="glyph-margin" style="left: 0px; width: 0px; height: 273px;"></div><div class="margin-view-zones" role="presentation" aria-hidden="true" style="position: absolute;"></div><div class="margin-view-overlays focused" role="presentation" aria-hidden="true" style="position: absolute; font-family: Menlo, Monaco, &quot;Courier New&quot;, monospace; font-weight: normal; font-size: 14px; font-feature-settings: &quot;liga&quot; 0, &quot;calt&quot; 0; font-variation-settings: normal; line-height: 21px; letter-spacing: 0px; width: 70px; height: 231px;"><div style="position:absolute;top:0px;width:100%;height:21px;"><div class="line-numbers" style="left:0px;width:44px;">1</div></div><div style="position:absolute;top:21px;width:100%;height:21px;"><div class="cldr codicon codicon-folding-expanded" style="left:44px;width:26px;"></div><div class="line-numbers" style="left:0px;width:44px;">2</div></div><div style="position:absolute;top:42px;width:100%;height:21px;"><div class="line-numbers" style="left:0px;width:44px;">3</div></div><div style="position:absolute;top:126px;width:100%;height:21px;"><div class="line-numbers" style="left:0px;width:44px;">7</div></div><div style="position:absolute;top:147px;width:100%;height:21px;"><div class="line-numbers" style="left:0px;width:44px;">8</div></div><div style="position:absolute;top:168px;width:100%;height:21px;"><div class="line-numbers" style="left:0px;width:44px;">9</div></div><div style="position:absolute;top:63px;width:100%;height:21px;"><div class="line-numbers" style="left:0px;width:44px;">4</div></div><div style="position:absolute;top:84px;width:100%;height:21px;"><div class="line-numbers" style="left:0px;width:44px;">5</div></div><div style="position:absolute;top:105px;width:100%;height:21px;"><div class="current-line current-line-margin-both" style="width:70px; height:21px;"></div><div class="line-numbers active-line-number" style="left:0px;width:44px;">6</div></div></div></div><div class="monaco-scrollable-element editor-scrollable vs mac" role="presentation" data-mprt="5" style="position: absolute; overflow: hidden; left: 70px; width: 670px; height: 175px;"><div class="lines-content monaco-editor-background" style="position: absolute; overflow: hidden; width: 1e+06px; height: 1e+06px; transform: translate3d(0px, 0px, 0px); contain: strict; top: 0px; left: 0px;"><div class="view-overlays focused" role="presentation" aria-hidden="true" style="position: absolute; font-family: Menlo, Monaco, &quot;Courier New&quot;, monospace; font-weight: normal; font-size: 14px; font-feature-settings: &quot;liga&quot; 0, &quot;calt&quot; 0; font-variation-settings: normal; line-height: 21px; letter-spacing: 0px; height: 0px; width: 670px;"><div style="position:absolute;top:0px;width:100%;height:21px;"></div><div style="position:absolute;top:21px;width:100%;height:21px;"><div class="cdr bracket-match" style="left:246px;width:8px;height:21px;"></div><div class="cdr squiggly-hint" style="left:221px;width:17px;height:21px;"></div><div class="cdr squiggly-unnecessary" style="left:221px;width:9px;height:21px;"></div></div><div style="position:absolute;top:42px;width:100%;height:21px;"><div class="core-guide core-guide-indent-active vertical" style="left:0px;height:21px;width:4.85546875px"></div></div><div style="position: absolute; top: 126px; width: 100%; height: 21px;"><div class="core-guide core-guide-indent-active vertical" style="left:0px;height:21px;width:4.85546875px"></div></div><div style="position:absolute;top:147px;width:100%;height:21px;"><div class="cdr bracket-match" style="left:0px;width:8px;height:21px;"></div></div><div style="position: absolute; top: 168px; width: 100%; height: 21px;"></div><div style="position:absolute;top:63px;width:100%;height:21px;"><div class="core-guide core-guide-indent-active vertical" style="left:0px;height:21px;width:4.85546875px"></div><div class="cdr squiggly-unnecessary" style="left:68px;width:76px;height:21px;"></div></div><div style="position:absolute;top:84px;width:100%;height:21px;"><div class="core-guide core-guide-indent-active vertical" style="left:0px;height:21px;width:4.85546875px"></div><div class="cdr squiggly-unnecessary" style="left:68px;width:68px;height:21px;"></div></div><div style="position:absolute;top:105px;width:100%;height:21px;"><div class="current-line" style="width:670px; height:21px;"></div><div class="core-guide core-guide-indent-active vertical" style="left:0px;height:21px;width:4.85546875px"></div></div></div><div role="presentation" aria-hidden="true" class="view-rulers"></div><div role="presentation" aria-hidden="true" class="blockDecorations-container"></div><div class="view-zones" role="presentation" aria-hidden="true" style="position: absolute;"></div><div class="view-lines monaco-mouse-cursor-text" role="presentation" aria-hidden="true" data-mprt="7" style="position: absolute; font-family: Menlo, Monaco, &quot;Courier New&quot;, monospace; font-weight: normal; font-size: 14px; font-feature-settings: &quot;liga&quot; 0, &quot;calt&quot; 0; font-variation-settings: normal; line-height: 21px; letter-spacing: 0px; width: 670px; height: 231px;"><div style="top:0px;height:21px;" class="view-line"><span><span></span></span></div><div style="top:21px;height:21px;" class="view-line"><span><span class="mtk6">function</span><span class="mtk1">&nbsp;validParentheses</span><span class="mtk1 bracket-highlighting-0">(</span><span class="mtk1 squiggly-inline-unnecessary">s</span><span class="mtk1 bracket-highlighting-0">)</span><span class="mtk1">&nbsp;</span><span class="mtk1 bracket-highlighting-0">{</span></span></div><div style="top:42px;height:21px;" class="view-line"><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk8">//&nbsp;Your&nbsp;code&nbsp;starts&nbsp;here.</span></span></div><div style="top: 126px; height: 21px;" class="view-line"><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk6">return</span><span class="mtk1">&nbsp;</span><span class="mtk20">"output"</span><span class="mtk1">;</span></span></div><div style="top: 147px; height: 21px;" class="view-line"><span><span class="mtk1 bracket-highlighting-0">}</span></span></div><div style="top: 168px; height: 21px;" class="view-line"><span><span></span></span></div><div style="top:63px;height:21px;" class="view-line"><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk6">const</span><span class="mtk1">&nbsp;</span><span class="mtk1 squiggly-inline-unnecessary">rightNode</span><span class="mtk1">&nbsp;=&nbsp;</span><span class="mtk1 bracket-highlighting-1">[</span><span class="mtk20">'['</span><span class="mtk1">,</span><span class="mtk20">"{"</span><span class="mtk1">,</span><span class="mtk20">"("</span><span class="mtk1">,</span><span class="mtk1 bracket-highlighting-1">]</span></span></div><div style="top:84px;height:21px;" class="view-line"><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk6">const</span><span class="mtk1">&nbsp;</span><span class="mtk1 squiggly-inline-unnecessary">leftNode</span><span class="mtk1">&nbsp;=&nbsp;</span><span class="mtk1 bracket-highlighting-1">[</span><span class="mtk20">'}'</span><span class="mtk1">,</span><span class="mtk20">"]"</span><span class="mtk1">,</span><span class="mtk20">")"</span><span class="mtk1 bracket-highlighting-1">]</span></span></div><div style="top:105px;height:21px;" class="view-line"><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk6">const</span><span class="mtk1">&nbsp;</span></span></div></div><div data-mprt="1" class="contentWidgets" style="position: absolute; top: 0px;"><div class="lightBulbWidget codicon-light-bulb codicon" widgetid="LightBulbWidget" title="Show Code Actions (⌘.)" style="position: absolute; display: none; visibility: hidden; max-width: 670px; top: 147px; left: 0px;"></div></div><div role="presentation" aria-hidden="true" class="cursors-layer cursor-line-style cursor-solid"><div class="cursor monaco-mouse-cursor-text " style="height: 21px; top: 105px; left: 67px; font-family: Menlo, Monaco, &quot;Courier New&quot;, monospace; font-weight: normal; font-size: 14px; font-feature-settings: &quot;liga&quot; 0, &quot;calt&quot; 0; font-variation-settings: normal; line-height: 21px; letter-spacing: 0px; display: block; visibility: inherit; padding-left: 1px; width: 2px;"></div></div></div><div role="presentation" aria-hidden="true" class="invisible scrollbar horizontal" style="position: absolute; width: 656px; height: 12px; left: 0px; bottom: 0px;"><div class="slider" style="position: absolute; top: 0px; left: 0px; height: 12px; transform: translate3d(0px, 0px, 0px); contain: strict; width: 656px;"></div></div><canvas class="decorationsOverviewRuler" aria-hidden="true" width="28" height="350" style="position: absolute; transform: translate3d(0px, 0px, 0px); contain: strict; top: 0px; right: 0px; width: 14px; height: 175px; display: block;"></canvas><div role="presentation" aria-hidden="true" class="visible scrollbar vertical" style="position: absolute; width: 14px; height: 175px; right: 0px; top: 0px;"><div class="slider" style="position: absolute; top: 0px; left: 0px; width: 14px; transform: translate3d(0px, 0px, 0px); contain: strict; height: 132px;"></div></div></div><div role="presentation" aria-hidden="true" style="width: 740px;" class=""></div><textarea data-mprt="6" class="inputarea monaco-mouse-cursor-text" wrap="off" autocorrect="off" autocapitalize="off" autocomplete="off" spellcheck="false" aria-label="Editor content;Press Alt+F1 for Accessibility Options." tabindex="0" role="textbox" aria-roledescription="editor" aria-multiline="true" aria-haspopup="false" aria-autocomplete="both" style="tab-size: 9.71094px; font-family: Menlo, Monaco, &quot;Courier New&quot;, monospace; font-weight: normal; font-size: 14px; font-feature-settings: &quot;liga&quot; 0, &quot;calt&quot; 0; font-variation-settings: normal; line-height: 21px; letter-spacing: 0px; top: 105px; left: 138px; width: 1px; height: 21px;"></textarea><div style="position: absolute; top: 0px; left: 0px; width: 0px; height: 0px;" class="monaco-editor-background textAreaCover line-numbers"></div><div data-mprt="4" class="overlayWidgets" style="width: 740px;"></div><div data-mprt="8" class="minimap slider-mouseover" role="presentation" aria-hidden="true" style="position: absolute; left: 0px; width: 0px; height: 175px;"><div class="minimap-shadow-hidden" style="height: 175px;"></div><canvas width="0" height="350" style="position: absolute; left: 0px; width: 0px; height: 175px;"></canvas><canvas class="minimap-decorations-layer" width="0" height="350" style="position: absolute; left: 0px; width: 0px; height: 175px;"></canvas><div class="minimap-slider" style="position: absolute; transform: translate3d(0px, 0px, 0px); contain: strict; width: 0px;"><div class="minimap-slider-horizontal" style="position: absolute; width: 0px; height: 0px;"></div></div></div></div><div data-mprt="2" class="overflowingContentWidgets"><div class="monaco-hover hidden" tabindex="0" role="tooltip" widgetid="editor.contrib.contentHoverWidget" style="position: absolute; display: none; visibility: hidden; max-width: 1440px; top: 74px; left: 146px;"><div class="monaco-scrollable-element  mac" role="presentation" style="position: relative; overflow: hidden;"><div class="monaco-hover-content" style="overflow: hidden; font-size: 14px; line-height: 1.5; max-height: 250px; max-width: 500px;"><div class="hover-row markdown-hover"><div class="hover-contents code-hover-contents"><div><div data-code="id#2"><span style="font-family: Menlo, Monaco, &quot;Courier New&quot;, monospace; font-weight: normal; font-size: 14px; font-feature-settings: &quot;liga&quot; 0, &quot;calt&quot; 0; font-variation-settings: normal; line-height: 21px; letter-spacing: 0px;"><div class="monaco-tokenized-source"><span class="mtk1">(parameter) tinggi_kucing: </span><span class="mtk6">any</span></div></span></div></div></div></div></div><div role="presentation" aria-hidden="true" class="invisible scrollbar horizontal" style="position: absolute; width: 260px; height: 10px; left: 0px; bottom: 0px;"><div class="slider" style="position: absolute; top: 0px; left: 0px; height: 10px; transform: translate3d(0px, 0px, 0px); contain: strict; width: 260px;"></div></div><div role="presentation" aria-hidden="true" class="invisible scrollbar vertical" style="position: absolute; width: 10px; height: 29px; right: 0px; top: 0px;"><div class="slider" style="position: absolute; top: 0px; left: 0px; width: 10px; transform: translate3d(0px, 0px, 0px); contain: strict; height: 29px;"></div></div><div class="shadow"></div><div class="shadow"></div><div class="shadow"></div></div></div><div class="editor-widget suggest-widget" widgetid="editor.widget.suggestWidget" style="position: absolute; display: none; visibility: hidden; max-width: 1440px; height: 233px; width: 430px; top: 126px; left: 129px;"><div class="monaco-sash mac vertical" style="left: 428px;"></div><div class="monaco-sash mac vertical disabled" style="left: -2px;"></div><div class="monaco-sash orthogonal-edge-north mac horizontal disabled" style="top: -2px;"><div class="orthogonal-drag-handle end"></div></div><div class="monaco-sash orthogonal-edge-south mac horizontal" style="top: 231px;"><div class="orthogonal-drag-handle end"></div></div><div class="message" aria-hidden="true" style="display: none;"></div><div class="tree" style="height: 233px; display: none;" aria-hidden="true"><div class="monaco-list list_id_1 selection-none" tabindex="0" role="listbox" aria-label="Suggest"><div class="monaco-scrollable-element  mac" role="presentation" style="position: relative; overflow: hidden;"><div class="monaco-list-rows" style="transform: translate3d(0px, 0px, 0px); overflow: hidden; contain: strict; height: 0px; left: 0px; top: 0px;"></div><div role="presentation" aria-hidden="true" class="invisible scrollbar horizontal" style="position: absolute; width: 0px; height: 10px; left: 0px; bottom: 0px;"><div class="slider" style="position: absolute; top: 0px; left: 0px; height: 10px; transform: translate3d(0px, 0px, 0px); contain: strict; width: 0px;"></div></div><div role="presentation" aria-hidden="true" class="invisible scrollbar vertical" style="position: absolute; width: 10px; height: 233px; right: 0px; top: 0px;"><div class="slider" style="position: absolute; top: 0px; left: 0px; width: 10px; transform: translate3d(0px, 0px, 0px); contain: strict; height: 233px;"></div></div></div><style type="text/css" media="screen">.monaco-list.list_id_1:focus .monaco-list-row.focused { background-color: var(--vscode-list-focusBackground); }
+.monaco-list.list_id_1:focus .monaco-list-row.focused:hover { background-color: var(--vscode-list-focusBackground); }
+.monaco-list.list_id_1:focus .monaco-list-row.focused { color: var(--vscode-list-focusForeground); }
+.monaco-list.list_id_1:focus .monaco-list-row.selected { background-color: var(--vscode-list-activeSelectionBackground); }
+.monaco-list.list_id_1:focus .monaco-list-row.selected:hover { background-color: var(--vscode-list-activeSelectionBackground); }
+.monaco-list.list_id_1:focus .monaco-list-row.selected { color: var(--vscode-list-activeSelectionForeground); }
+.monaco-list.list_id_1:focus .monaco-list-row.selected .codicon { color: var(--vscode-list-activeSelectionIconForeground); }
+
+				.monaco-drag-image,
+				.monaco-list.list_id_1:focus .monaco-list-row.selected.focused { background-color: var(--vscode-list-activeSelectionBackground); }
+			
+
+				.monaco-drag-image,
+				.monaco-list.list_id_1:focus .monaco-list-row.selected.focused { color: var(--vscode-list-activeSelectionForeground); }
+			
+.monaco-list.list_id_1 .monaco-list-row.focused .codicon { color:  var(--vscode-list-inactiveSelectionIconForeground); }
+.monaco-list.list_id_1 .monaco-list-row.focused { background-color:  var(--vscode-editorSuggestWidget-selectedBackground); }
+.monaco-list.list_id_1 .monaco-list-row.focused:hover { background-color:  var(--vscode-editorSuggestWidget-selectedBackground); }
+.monaco-list.list_id_1 .monaco-list-row.selected { background-color:  var(--vscode-list-inactiveSelectionBackground); }
+.monaco-list.list_id_1 .monaco-list-row.selected:hover { background-color:  var(--vscode-list-inactiveSelectionBackground); }
+.monaco-list.list_id_1 .monaco-list-row.selected { color: var(--vscode-list-inactiveSelectionForeground); }
+.monaco-list.list_id_1:not(.drop-target):not(.dragging) .monaco-list-row:hover:not(.selected):not(.focused) { background-color: var(--vscode-list-hoverBackground); }
+.monaco-list.list_id_1:not(.drop-target):not(.dragging) .monaco-list-row:hover:not(.selected):not(.focused) { color:  var(--vscode-list-hoverForeground); }
+.monaco-list.list_id_1:focus .monaco-list-row.focused.selected { outline: 1px solid var(--vscode-list-focusAndSelectionOutline, var(--vscode-contrastActiveBorder, var(--vscode-list-focusOutline))); outline-offset: -1px;}
+
+				.monaco-drag-image,
+				.monaco-list.list_id_1:focus .monaco-list-row.focused { outline: 1px solid var(--vscode-list-focusOutline); outline-offset: -1px; }
+				.monaco-workbench.context-menu-visible .monaco-list.list_id_1.last-focused .monaco-list-row.focused { outline: 1px solid var(--vscode-list-focusOutline); outline-offset: -1px; }
+			
+.monaco-list.list_id_1 .monaco-list-row.focused.selected { outline: 1px dotted var(--vscode-contrastActiveBorder, var(--vscode-contrastActiveBorder)); outline-offset: -1px; }
+.monaco-list.list_id_1 .monaco-list-row.selected { outline: 1px dotted var(--vscode-contrastActiveBorder); outline-offset: -1px; }
+.monaco-list.list_id_1 .monaco-list-row.focused { outline: 1px dotted var(--vscode-contrastActiveBorder); outline-offset: -1px; }
+.monaco-list.list_id_1 .monaco-list-row:hover { outline: 1px dashed var(--vscode-contrastActiveBorder); outline-offset: -1px; }
+
+				.monaco-list.list_id_1.drop-target,
+				.monaco-list.list_id_1 .monaco-list-rows.drop-target,
+				.monaco-list.list_id_1 .monaco-list-row.drop-target { background-color: var(--vscode-list-dropBackground) !important; color: inherit !important; }
+			
+
+				.monaco-table > .monaco-split-view2,
+				.monaco-table > .monaco-split-view2 .monaco-sash.vertical::before,
+				.monaco-workbench:not(.reduce-motion) .monaco-table:hover > .monaco-split-view2,
+				.monaco-workbench:not(.reduce-motion) .monaco-table:hover > .monaco-split-view2 .monaco-sash.vertical::before {
+					border-color: var(--vscode-tree-tableColumnsBorder);
+				}
+
+				.monaco-workbench:not(.reduce-motion) .monaco-table > .monaco-split-view2,
+				.monaco-workbench:not(.reduce-motion) .monaco-table > .monaco-split-view2 .monaco-sash.vertical::before {
+					border-color: transparent;
+				}
+			
+
+				.monaco-table .monaco-list-row[data-parity=odd]:not(.focused):not(.selected):not(:hover) .monaco-table-tr,
+				.monaco-table .monaco-list:not(:focus) .monaco-list-row[data-parity=odd].focused:not(.selected):not(:hover) .monaco-table-tr,
+				.monaco-table .monaco-list:not(.focused) .monaco-list-row[data-parity=odd].focused:not(.selected):not(:hover) .monaco-table-tr {
+					background-color: var(--vscode-tree-tableOddRowsBackground);
+				}
+			</style></div></div><div class="suggest-status-bar" style="height: 21px; display: none;" aria-hidden="true"><div class="monaco-action-bar animated left"><ul class="actions-container" role="presentation"><li class="action-item menu-entry" role="presentation" title="Insert (Enter)"><a class="action-label" role="button" aria-label="Insert (Enter)" tabindex="0">Insert (⏎)</a></li></ul></div><div class="monaco-action-bar animated right"><ul class="actions-container" role="presentation"><li class="action-item menu-entry" role="presentation" title="show more (⌃Space)"><a class="action-label" role="button" aria-label="show more (⌃Space)" tabindex="0">show more (⌃Space)</a></li></ul></div></div></div><div class="editor-widget parameter-hints-widget multiple" widgetid="editor.widget.parameterHintsWidget" style="user-select: text; position: absolute; display: none; visibility: hidden; max-width: 1440px; font-size: 14px; line-height: 1.5; max-height: 250px; top: 38px; left: 265px;"><div class="phwrapper" tabindex="-1" style="max-height: 250px;"><div class="controls"><div class="button codicon codicon-parameter-hints-previous"></div><div class="overloads">2/3</div><div class="button codicon codicon-parameter-hints-next"></div></div><div class="monaco-scrollable-element  mac" role="presentation" style="position: relative; overflow: hidden;"><div class="body" style="overflow: hidden;"><div class="signature"><div class="code" style="font-size: 14px; font-family: Menlo, Monaco, &quot;Courier New&quot;, monospace;"><span>Array&lt;T&gt;(</span><span class="parameter active">arrayLength: number</span><span>): T[]</span></div></div><div class="docs empty"><p><span class="documentation"><div class="markdown-docs"></div></span></p><div class="markdown-docs"></div></div></div><div role="presentation" aria-hidden="true" class="invisible scrollbar horizontal" style="position: absolute; width: 288px; height: 10px; left: 0px; bottom: 0px;"><div class="slider" style="position: absolute; top: 0px; left: 0px; height: 10px; transform: translate3d(0px, 0px, 0px); contain: strict; width: 288px;"></div></div><div role="presentation" aria-hidden="true" class="invisible scrollbar vertical" style="position: absolute; width: 10px; height: 44px; right: 0px; top: 0px;"><div class="slider" style="position: absolute; top: 0px; left: 0px; width: 10px; transform: translate3d(0px, 0px, 0px); contain: strict; height: 44px;"></div></div><div class="shadow"></div><div class="shadow"></div><div class="shadow"></div></div></div></div></div></div></div><p class="text-sm text-red-500 mt-2" hidden=""></p><div class="bg-white dark:bg-gray-900 dark:border-gray-800 border-t-2 border-gray-200 shrink-0" style="position: relative; height: 507px;"><div class="w-full h-full"><div class="border-b-2 dark:border-gray-800 border-gray-200 p-2 px-3 flex items-center sticky"><button class="ml-auto dark:border-gray-600 border-2 text-sm font-medium py-2 px-4 rounded flex items-center mr-2 disabled:opacity-60 hover:opacity-80"><svg fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="dark:text-white w-4 h-4"><path stroke-linecap="round" stroke-linejoin="round" d="M5.25 5.653c0-.856.917-1.398 1.667-.986l11.54 6.348a1.125 1.125 0 010 1.971l-11.54 6.347a1.125 1.125 0 01-1.667-.985V5.653z"></path></svg><p class="font-medium text-sm dark:text-white ml-1">Run Test</p></button><button class="text-sm font-medium py-2 px-4 rounded flex items-center mr-2 disabled:opacity-60 hover:opacity-80 bg-sky-500"><svg fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="text-white w-4 h-4"><path stroke-linecap="round" stroke-linejoin="round" d="M5.25 5.653c0-.856.917-1.398 1.667-.986l11.54 6.348a1.125 1.125 0 010 1.971l-11.54 6.347a1.125 1.125 0 01-1.667-.985V5.653z"></path></svg><p class="font-medium text-sm text-white ml-1">Submit Code</p></button></div><div class="p-3 space-y-4 overflow-auto h-[calc(100%-58px)]"><div class="dark:text-white text-sm h-full w-full flex flex-col items-center justify-center text-center">Test Case Result will be shown here.</div></div><div class="_resizer_15clo_1 _n_15clo_21" draggable="false"><div class="_handle_15clo_8 _coding_15clo_13" draggable="false"></div></div></div></div></div></div></div></div><div hidden=""><div class="bg-white dark:bg-slate-900 rounded-lg w-full px-2 lg:px-10 md:px-4 py-4 mx-auto gap-4"><div class="w-full lg:w-1/2 md:w-3/4 mx-auto "><div class="p-4 md:p-8 text-center flex flex-col items-center  gap-4"><h1 class="font-medium text-2xl dark:text-white">IT Paragon Programming Test Basic - Front-End - Batch Aug 2023</h1><h3 class="font-medium text-lg dark:text-white">Screen Capture Enabler</h3><div class="text-center flex flex-col items-center gap-1"><p class="dark:text-white opacity-80">Please grant access to your browser so that we can conduct surveillance of the exam in the form of capturing your window screen.</p><p class="text-red-500 font-medium mb-2 underline">Choose "Your entire screen" on dialog box.</p><p class="text-red-500 font-medium mb-2 underline">Do NOT stop sharing your screen while exam is taking place, or this warning will be showed again!</p><video class="w-32 h-32 rounded" hidden="" autoplay=""></video><canvas class="w-32 h-32 rounded" hidden="" height="900" width="1440"></canvas><button type="button" class="md:w-fit w-full h-14 px-8 bg-blue-500 enabled:hover:bg-blue-600 disabled:bg-gray-500 text-white rounded flex justify-center items-center gap-x-2"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6"><path stroke-linecap="round" stroke-linejoin="round" d="M9 17.25v1.007a3 3 0 01-.879 2.122L7.5 21h9l-.621-.621A3 3 0 0115 18.257V17.25m6-12V15a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 15V5.25m18 0A2.25 2.25 0 0018.75 3H5.25A2.25 2.25 0 003 5.25m18 0V12a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 12V5.25"></path></svg><span class="block">Enable Screen Capture</span></button><p class="dark:text-white opacity-80">After screen sharing is enabled you will able to continue your exam.</p><p class="dark:text-white opacity-80">Please note that we will take pictures from time to time without your knowledge throughout the exam. By pressing the button you agree to this condition.</p></div></div></div></div></div></div><div hidden=""><div class="bg-white dark:bg-slate-900 rounded-lg w-full px-2 lg:px-10 md:px-4 py-4 mx-auto gap-4"><div class="w-full lg:w-1/2 md:w-3/4 mx-auto "><div class=" p-4 md:p-8 text-center flex flex-col items-center  gap-4"><h1 class="font-medium text-2xl dark:text-white">IT Paragon Programming Test Basic - Front-End - Batch Aug 2023</h1><h3 class="font-medium text-lg dark:text-white">Webcam Enabler</h3><div class="text-center flex flex-col items-center gap-1"><p class="dark:text-white opacity-80">Please grant access to your browser so that we can conduct surveillance of the exam in the form of webcam / front camera snapshots.</p><p class="text-red-500 font-medium mb-2 underline">If access is not granted, you cannot continue this exam.</p><video class="w-[300px] h-auto rounded mb-2" autoplay="" hidden=""></video><canvas class="w-[300px] h-auto rounded mb-2" width="480" height="480"></canvas><button type="button" class="md:w-[300px] w-full h-14 px-8 bg-lime-600 enabled:hover:bg-lime-700 disabled:bg-gray-500 text-white rounded flex justify-center items-center gap-x-2"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6"><path stroke-linecap="round" stroke-linejoin="round" d="M6.827 6.175A2.31 2.31 0 015.186 7.23c-.38.054-.757.112-1.134.175C2.999 7.58 2.25 8.507 2.25 9.574V18a2.25 2.25 0 002.25 2.25h15A2.25 2.25 0 0021.75 18V9.574c0-1.067-.75-1.994-1.802-2.169a47.865 47.865 0 00-1.134-.175 2.31 2.31 0 01-1.64-1.055l-.822-1.316a2.192 2.192 0 00-1.736-1.039 48.774 48.774 0 00-5.232 0 2.192 2.192 0 00-1.736 1.039l-.821 1.316z"></path><path stroke-linecap="round" stroke-linejoin="round" d="M16.5 12.75a4.5 4.5 0 11-9 0 4.5 4.5 0 019 0zM18.75 10.5h.008v.008h-.008V10.5z"></path></svg><span class="block">Retake Photo</span></button><p class="dark:text-white opacity-80 mt-2">You should be able to see yourself in our camera preview.</p><p class="dark:text-white opacity-80">We will take pictures from time to time without your knowledge throughout the exam. By pressing the next button you agree to this condition.</p></div><button class="md:w-fit w-full h-14 px-20 bg-blue-500 hover:bg-blue-600 text-white rounded flex justify-center items-center gap-x-2"><span class="block">Next</span></button></div></div></div></div></div></div>
+  <script>
+    var global = window;
+  </script>
+  
+  <script id="mathjax-js" type="text/javascript" src="./IT Paragon Programming Test Basic - Front-End - Batch Aug 2023 - Test Pemrograman Dasar Level 1_files/tex-mml-chtml.js"></script>
+
+  <!--Start of Tawk.to Script-->
+  <script type="text/javascript">
+    var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+    (function () {
+      var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+      s1.async = true;
+      s1.src = 'https://embed.tawk.to/63e307c3c2f1ac1e203205f4/1gondcmkv';
+      s1.charset = 'UTF-8';
+      s1.setAttribute('crossorigin', '*');
+      s0.parentNode.insertBefore(s1, s0);
+    })();
+  </script>
+  <!--End of Tawk.to Script-->
+
+
+<script async="" charset="UTF-8" src="./IT Paragon Programming Test Basic - Front-End - Batch Aug 2023 - Test Pemrograman Dasar Level 1_files/en.js"></script><div id="fpi83vrpqio81693570195416" class="widget-visible"><iframe src="./IT Paragon Programming Test Basic - Front-End - Batch Aug 2023 - Test Pemrograman Dasar Level 1_files/saved_resource.html" frameborder="0" scrolling="no" width="154px" height="44px" style="outline:none !important; visibility:visible !important; resize:none !important; box-shadow:none !important; overflow:visible !important; background:none !important; opacity:1 !important; filter:alpha(opacity=100) !important; -ms-filter:progid:DXImageTransform.Microsoft.Alpha(Opacity 1}) !important; -mz-opacity:1 !important; -khtml-opacity:1 !important; top:auto !important; right:10px !important; bottom:0px !important; left:auto !important; position:fixed !important; border:0 !important; min-height:44px !important; min-width:154px !important; max-height:44px !important; max-width:154px !important; padding:0 !important; margin:0 !important; -moz-transition-property:none !important; -webkit-transition-property:none !important; -o-transition-property:none !important; transition-property:none !important; transform:none !important; -webkit-transform:none !important; -ms-transform:none !important; width:154px !important; height:44px !important; display:block !important; z-index:1000001 !important; background-color:transparent !important; cursor:none !important; float:none !important; border-radius:unset !important; pointer-events:auto !important; clip:auto !important; color-scheme:light !important;" id="jtcbvtseh9d1693570195428" class="" title="chat widget"></iframe><iframe src="./IT Paragon Programming Test Basic - Front-End - Batch Aug 2023 - Test Pemrograman Dasar Level 1_files/saved_resource(1).html" frameborder="0" scrolling="no" width="400px" height="480px" style="outline:none !important; visibility:visible !important; resize:none !important; box-shadow:none !important; overflow:visible !important; background:none !important; opacity:1 !important; filter:alpha(opacity=100) !important; -ms-filter:progid:DXImageTransform.Microsoft.Alpha(Opacity 1}) !important; -mz-opacity:1 !important; -khtml-opacity:1 !important; top:auto !important; right:0px !important; bottom:0px !important; left:auto !important; position:fixed !important; border:0 !important; min-height:480px !important; min-width:400px !important; max-height:480px !important; max-width:400px !important; padding:0 !important; margin:0 !important; -moz-transition-property:none !important; -webkit-transition-property:none !important; -o-transition-property:none !important; transition-property:none !important; transform:none !important; -webkit-transform:none !important; -ms-transform:none !important; width:400px !important; height:480px !important; display:none !important; z-index:auto !important; background-color:transparent !important; cursor:none !important; float:none !important; border-radius:5px 5px  0 0 !important; pointer-events:auto !important; clip:auto !important; color-scheme:light !important;" id="utripo4oiueo1693570195440" class="" title="chat widget"></iframe><iframe src="./IT Paragon Programming Test Basic - Front-End - Batch Aug 2023 - Test Pemrograman Dasar Level 1_files/saved_resource(2).html" frameborder="0" scrolling="no" width="360px" height="55px" style="outline:none !important; visibility:visible !important; resize:none !important; box-shadow:none !important; overflow:visible !important; background:none !important; opacity:1 !important; filter:alpha(opacity=100) !important; -ms-filter:progid:DXImageTransform.Microsoft.Alpha(Opacity 1}) !important; -mz-opacity:1 !important; -khtml-opacity:1 !important; top:auto !important; right:10px !important; bottom:60px; left:auto !important; position:fixed !important; border:0 !important; min-height:55px !important; min-width:360px !important; max-height:55px !important; max-width:360px !important; padding:0 !important; margin:0 !important; -moz-transition-property:none !important; -webkit-transition-property:none !important; -o-transition-property:none !important; transition-property:none !important; transform:none !important; -webkit-transform:none !important; -ms-transform:none !important; width:360px !important; height:55px !important; display:none !important; z-index:auto !important; background-color:transparent !important; cursor:none !important; float:none !important; border-radius:unset !important; pointer-events:auto !important; clip:auto !important; color-scheme:light !important;" id="w5ej5kcnfma1693570195433" class="" title="chat widget"></iframe><div id="chat-bubble"></div></div><div class="monaco-aria-container"><div class="monaco-alert" role="alert" aria-atomic="true" style="visibility: visible;">arrayLength: number, , , hint</div><div class="monaco-alert" role="alert" aria-atomic="true"></div><div class="monaco-status" role="complementary" aria-live="polite" aria-atomic="true"></div><div class="monaco-status" role="complementary" aria-live="polite" aria-atomic="true"></div></div></body></html>
