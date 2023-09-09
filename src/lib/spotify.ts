@@ -22,14 +22,23 @@ const getAccessToken = async () => {
   return response.json();
 };
 
-const TOP_TRACKS_ENDPOINT = `https://api.spotify.com/v1/me/top/tracks?limit=1`;
+const TOP_TRACKS_ENDPOINT = `https://api.spotify.com/v1/me/top/tracks?limit=2`;
 
-export const getTopTracks = async () => {
+export const getTopTracks = async ({
+  limit = 1,
+  offset = 0,
+}: {
+  limit: number;
+  offset: number;
+}) => {
   const { access_token } = await getAccessToken();
 
-  return fetch(TOP_TRACKS_ENDPOINT, {
-    headers: {
-      Authorization: `Bearer ${access_token}`,
+  return fetch(
+    `https://api.spotify.com/v1/me/top/tracks?limit=${limit}&offset=${offset}`,
+    {
+      headers: {
+        Authorization: `Bearer ${access_token}`,
+      },
     },
-  });
+  );
 };

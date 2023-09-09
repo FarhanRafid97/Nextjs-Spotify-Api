@@ -1,11 +1,8 @@
 'use client';
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
-import { useSession } from 'next-auth/react';
 
 const TopTrack = () => {
-  const { data: session } = useSession();
-
   const [list, setList] = useState<any>();
 
   return (
